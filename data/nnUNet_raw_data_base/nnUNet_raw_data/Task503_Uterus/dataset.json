@@ -1,0 +1,548 @@
+{
+    "description": "",
+    "labels": {
+        "0": "background",
+        "1": "uterus"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "u"
+    },
+    "name": "Uterus",
+    "numTest": 31,
+    "numTraining": 124,
+    "reference": "",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/Bologna-1.nii.gz",
+        "./imagesTs/Bologna-18.nii.gz",
+        "./imagesTs/Bologna-27.nii.gz",
+        "./imagesTs/Bologna-28.nii.gz",
+        "./imagesTs/Bologna-33.nii.gz",
+        "./imagesTs/Bologna-34.nii.gz",
+        "./imagesTs/Bologna-37.nii.gz",
+        "./imagesTs/Bologna-38.nii.gz",
+        "./imagesTs/Bologna-43.nii.gz",
+        "./imagesTs/Bologna-45.nii.gz",
+        "./imagesTs/Bologna-48.nii.gz",
+        "./imagesTs/Bologna-50.nii.gz",
+        "./imagesTs/Bologna-9.nii.gz",
+        "./imagesTs/Forli-13.nii.gz",
+        "./imagesTs/Forli-19.nii.gz",
+        "./imagesTs/Forli-24.nii.gz",
+        "./imagesTs/Forli-31.nii.gz",
+        "./imagesTs/Forli-37.nii.gz",
+        "./imagesTs/Forli-39.nii.gz",
+        "./imagesTs/Forli-43.nii.gz",
+        "./imagesTs/Forli-5.nii.gz",
+        "./imagesTs/Forli-50.nii.gz",
+        "./imagesTs/Madrid-1.nii.gz",
+        "./imagesTs/Madrid-10.nii.gz",
+        "./imagesTs/Madrid-17.nii.gz",
+        "./imagesTs/Madrid-18.nii.gz",
+        "./imagesTs/Madrid-2.nii.gz",
+        "./imagesTs/Madrid-24.nii.gz",
+        "./imagesTs/Madrid-34.nii.gz",
+        "./imagesTs/Madrid-38.nii.gz",
+        "./imagesTs/Madrid-46.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/Athens-1.nii.gz",
+            "label": "./labelsTr/Athens-1.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Athens-2.nii.gz",
+            "label": "./labelsTr/Athens-2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Athens-4.nii.gz",
+            "label": "./labelsTr/Athens-4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-10.nii.gz",
+            "label": "./labelsTr/Bologna-10.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-11.nii.gz",
+            "label": "./labelsTr/Bologna-11.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-12.nii.gz",
+            "label": "./labelsTr/Bologna-12.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-13.nii.gz",
+            "label": "./labelsTr/Bologna-13.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-14.nii.gz",
+            "label": "./labelsTr/Bologna-14.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-15.nii.gz",
+            "label": "./labelsTr/Bologna-15.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-16.nii.gz",
+            "label": "./labelsTr/Bologna-16.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-17.nii.gz",
+            "label": "./labelsTr/Bologna-17.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-19.nii.gz",
+            "label": "./labelsTr/Bologna-19.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-2.nii.gz",
+            "label": "./labelsTr/Bologna-2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-20.nii.gz",
+            "label": "./labelsTr/Bologna-20.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-21.nii.gz",
+            "label": "./labelsTr/Bologna-21.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-22.nii.gz",
+            "label": "./labelsTr/Bologna-22.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-23.nii.gz",
+            "label": "./labelsTr/Bologna-23.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-24.nii.gz",
+            "label": "./labelsTr/Bologna-24.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-25.nii.gz",
+            "label": "./labelsTr/Bologna-25.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-26.nii.gz",
+            "label": "./labelsTr/Bologna-26.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-29.nii.gz",
+            "label": "./labelsTr/Bologna-29.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-3.nii.gz",
+            "label": "./labelsTr/Bologna-3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-30.nii.gz",
+            "label": "./labelsTr/Bologna-30.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-31.nii.gz",
+            "label": "./labelsTr/Bologna-31.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-32.nii.gz",
+            "label": "./labelsTr/Bologna-32.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-35.nii.gz",
+            "label": "./labelsTr/Bologna-35.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-36.nii.gz",
+            "label": "./labelsTr/Bologna-36.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-39.nii.gz",
+            "label": "./labelsTr/Bologna-39.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-4.nii.gz",
+            "label": "./labelsTr/Bologna-4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-40.nii.gz",
+            "label": "./labelsTr/Bologna-40.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-41.nii.gz",
+            "label": "./labelsTr/Bologna-41.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-42.nii.gz",
+            "label": "./labelsTr/Bologna-42.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-44.nii.gz",
+            "label": "./labelsTr/Bologna-44.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-46.nii.gz",
+            "label": "./labelsTr/Bologna-46.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-47.nii.gz",
+            "label": "./labelsTr/Bologna-47.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-49.nii.gz",
+            "label": "./labelsTr/Bologna-49.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-5.nii.gz",
+            "label": "./labelsTr/Bologna-5.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-6.nii.gz",
+            "label": "./labelsTr/Bologna-6.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-7.nii.gz",
+            "label": "./labelsTr/Bologna-7.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Bologna-8.nii.gz",
+            "label": "./labelsTr/Bologna-8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-1.nii.gz",
+            "label": "./labelsTr/Forli-1.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-10.nii.gz",
+            "label": "./labelsTr/Forli-10.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-11.nii.gz",
+            "label": "./labelsTr/Forli-11.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-12.nii.gz",
+            "label": "./labelsTr/Forli-12.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-14.nii.gz",
+            "label": "./labelsTr/Forli-14.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-15.nii.gz",
+            "label": "./labelsTr/Forli-15.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-16.nii.gz",
+            "label": "./labelsTr/Forli-16.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-17.nii.gz",
+            "label": "./labelsTr/Forli-17.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-18.nii.gz",
+            "label": "./labelsTr/Forli-18.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-2.nii.gz",
+            "label": "./labelsTr/Forli-2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-20.nii.gz",
+            "label": "./labelsTr/Forli-20.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-21.nii.gz",
+            "label": "./labelsTr/Forli-21.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-22.nii.gz",
+            "label": "./labelsTr/Forli-22.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-23.nii.gz",
+            "label": "./labelsTr/Forli-23.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-25.nii.gz",
+            "label": "./labelsTr/Forli-25.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-26.nii.gz",
+            "label": "./labelsTr/Forli-26.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-27.nii.gz",
+            "label": "./labelsTr/Forli-27.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-28.nii.gz",
+            "label": "./labelsTr/Forli-28.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-3.nii.gz",
+            "label": "./labelsTr/Forli-3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-30.nii.gz",
+            "label": "./labelsTr/Forli-30.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-32.nii.gz",
+            "label": "./labelsTr/Forli-32.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-33.nii.gz",
+            "label": "./labelsTr/Forli-33.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-34.nii.gz",
+            "label": "./labelsTr/Forli-34.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-35.nii.gz",
+            "label": "./labelsTr/Forli-35.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-36.nii.gz",
+            "label": "./labelsTr/Forli-36.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-38.nii.gz",
+            "label": "./labelsTr/Forli-38.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-4.nii.gz",
+            "label": "./labelsTr/Forli-4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-40.nii.gz",
+            "label": "./labelsTr/Forli-40.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-41.nii.gz",
+            "label": "./labelsTr/Forli-41.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-42.nii.gz",
+            "label": "./labelsTr/Forli-42.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-44.nii.gz",
+            "label": "./labelsTr/Forli-44.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-45.nii.gz",
+            "label": "./labelsTr/Forli-45.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-46.nii.gz",
+            "label": "./labelsTr/Forli-46.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-47.nii.gz",
+            "label": "./labelsTr/Forli-47.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-48.nii.gz",
+            "label": "./labelsTr/Forli-48.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-49.nii.gz",
+            "label": "./labelsTr/Forli-49.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-51.nii.gz",
+            "label": "./labelsTr/Forli-51.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-52.nii.gz",
+            "label": "./labelsTr/Forli-52.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-53.nii.gz",
+            "label": "./labelsTr/Forli-53.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-54.nii.gz",
+            "label": "./labelsTr/Forli-54.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-55.nii.gz",
+            "label": "./labelsTr/Forli-55.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-56.nii.gz",
+            "label": "./labelsTr/Forli-56.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-57.nii.gz",
+            "label": "./labelsTr/Forli-57.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-58.nii.gz",
+            "label": "./labelsTr/Forli-58.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-59.nii.gz",
+            "label": "./labelsTr/Forli-59.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-7.nii.gz",
+            "label": "./labelsTr/Forli-7.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-8.nii.gz",
+            "label": "./labelsTr/Forli-8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Forli-9.nii.gz",
+            "label": "./labelsTr/Forli-9.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-11.nii.gz",
+            "label": "./labelsTr/Madrid-11.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-12.nii.gz",
+            "label": "./labelsTr/Madrid-12.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-13.nii.gz",
+            "label": "./labelsTr/Madrid-13.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-14.nii.gz",
+            "label": "./labelsTr/Madrid-14.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-15.nii.gz",
+            "label": "./labelsTr/Madrid-15.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-16.nii.gz",
+            "label": "./labelsTr/Madrid-16.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-19.nii.gz",
+            "label": "./labelsTr/Madrid-19.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-20.nii.gz",
+            "label": "./labelsTr/Madrid-20.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-21.nii.gz",
+            "label": "./labelsTr/Madrid-21.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-22.nii.gz",
+            "label": "./labelsTr/Madrid-22.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-23.nii.gz",
+            "label": "./labelsTr/Madrid-23.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-25.nii.gz",
+            "label": "./labelsTr/Madrid-25.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-26.nii.gz",
+            "label": "./labelsTr/Madrid-26.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-27.nii.gz",
+            "label": "./labelsTr/Madrid-27.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-28.nii.gz",
+            "label": "./labelsTr/Madrid-28.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-29.nii.gz",
+            "label": "./labelsTr/Madrid-29.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-3.nii.gz",
+            "label": "./labelsTr/Madrid-3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-30.nii.gz",
+            "label": "./labelsTr/Madrid-30.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-31.nii.gz",
+            "label": "./labelsTr/Madrid-31.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-32.nii.gz",
+            "label": "./labelsTr/Madrid-32.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-33.nii.gz",
+            "label": "./labelsTr/Madrid-33.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-35.nii.gz",
+            "label": "./labelsTr/Madrid-35.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-36.nii.gz",
+            "label": "./labelsTr/Madrid-36.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-37.nii.gz",
+            "label": "./labelsTr/Madrid-37.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-39.nii.gz",
+            "label": "./labelsTr/Madrid-39.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-4.nii.gz",
+            "label": "./labelsTr/Madrid-4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-40.nii.gz",
+            "label": "./labelsTr/Madrid-40.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-41.nii.gz",
+            "label": "./labelsTr/Madrid-41.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-42.nii.gz",
+            "label": "./labelsTr/Madrid-42.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-44.nii.gz",
+            "label": "./labelsTr/Madrid-44.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-45.nii.gz",
+            "label": "./labelsTr/Madrid-45.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-47.nii.gz",
+            "label": "./labelsTr/Madrid-47.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-5.nii.gz",
+            "label": "./labelsTr/Madrid-5.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-6.nii.gz",
+            "label": "./labelsTr/Madrid-6.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-8.nii.gz",
+            "label": "./labelsTr/Madrid-8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/Madrid-9.nii.gz",
+            "label": "./labelsTr/Madrid-9.nii.gz"
+        }
+    ]
+}
