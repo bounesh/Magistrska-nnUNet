@@ -113,3 +113,6 @@ ENV/
 
 *.model
 
+data/nnUNet_preprocessed/*
+data/nnUNet_raw_data_base/*
+data/nnUNet_trained_models/*
