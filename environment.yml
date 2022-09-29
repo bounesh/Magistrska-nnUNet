@@ -1,0 +1,10 @@
+name: nnunet
+
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  - nvcc_linux-64=10.2
+  - pip
+  - python
