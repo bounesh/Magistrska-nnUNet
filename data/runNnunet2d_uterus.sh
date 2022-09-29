@@ -1,12 +1,3 @@
-export nnUNet_raw_data_base="/ceph2/grid/home/mpesek/cell/nnunet/nnUNet_raw_data_base"
-
-export nnUNet_preprocessed="/ceph2/grid/home/mpesek/cell/nnunet/nnUNet_preprocessed"
-
-export RESULTS_FOLDER="/ceph2/grid/home/mpesek/cell/nnunet/nnUNet_trained_models"
-
-export PATH="/ceph2/grid/home/mpesek/.local/bin:$PATH"
-
 CUDA_VISIBLE_DEVICES=$1
 
-nnUNet_train 2d nnUNetTrainerV2 Task502_Uterus $2 --npz
-
+nnUNet_train 2d nnUNetTrainerV2 503 $2 -c --npz
