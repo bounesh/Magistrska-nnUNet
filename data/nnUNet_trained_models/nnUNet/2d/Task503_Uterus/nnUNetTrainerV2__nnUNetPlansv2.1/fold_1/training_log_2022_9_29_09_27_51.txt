@@ -1,0 +1,267 @@
+Starting... 
+2022-09-29 09:27:51.206844: Using splits from existing split file: /home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/splits_final.pkl 
+2022-09-29 09:27:51.211741: The split file contains 5 splits. 
+2022-09-29 09:27:51.212392: Desired fold for training: 1 
+2022-09-29 09:27:51.213061: This split has 99 training and 25 validation cases. 
+2022-09-29 09:27:51.347646: TRAINING KEYS:
+ odict_keys(['Athens-1', 'Athens-2', 'Bologna-10', 'Bologna-11', 'Bologna-12', 'Bologna-14', 'Bologna-17', 'Bologna-19', 'Bologna-2', 'Bologna-20', 'Bologna-21', 'Bologna-22', 'Bologna-23', 'Bologna-24', 'Bologna-25', 'Bologna-26', 'Bologna-3', 'Bologna-30', 'Bologna-31', 'Bologna-32', 'Bologna-35', 'Bologna-36', 'Bologna-39', 'Bologna-40', 'Bologna-41', 'Bologna-42', 'Bologna-47', 'Bologna-49', 'Bologna-5', 'Bologna-7', 'Bologna-8', 'Forli-1', 'Forli-10', 'Forli-12', 'Forli-14', 'Forli-15', 'Forli-16', 'Forli-17', 'Forli-18', 'Forli-20', 'Forli-21', 'Forli-23', 'Forli-25', 'Forli-26', 'Forli-27', 'Forli-28', 'Forli-3', 'Forli-30', 'Forli-33', 'Forli-34', 'Forli-35', 'Forli-36', 'Forli-38', 'Forli-41', 'Forli-42', 'Forli-46', 'Forli-47', 'Forli-48', 'Forli-49', 'Forli-52', 'Forli-53', 'Forli-54', 'Forli-55', 'Forli-56', 'Forli-57', 'Forli-59', 'Forli-7', 'Forli-8', 'Forli-9', 'Madrid-13', 'Madrid-14', 'Madrid-15', 'Madrid-16', 'Madrid-19', 'Madrid-21', 'Madrid-23', 'Madrid-25', 'Madrid-26', 'Madrid-27', 'Madrid-28', 'Madrid-29', 'Madrid-3', 'Madrid-30', 'Madrid-32', 'Madrid-33', 'Madrid-35', 'Madrid-36', 'Madrid-37', 'Madrid-39', 'Madrid-4', 'Madrid-41', 'Madrid-42', 'Madrid-44', 'Madrid-45', 'Madrid-47', 'Madrid-5', 'Madrid-6', 'Madrid-8', 'Madrid-9']) 
+2022-09-29 09:27:51.348979: VALIDATION KEYS:
+ odict_keys(['Athens-4', 'Bologna-13', 'Bologna-15', 'Bologna-16', 'Bologna-29', 'Bologna-4', 'Bologna-44', 'Bologna-46', 'Bologna-6', 'Forli-11', 'Forli-2', 'Forli-22', 'Forli-32', 'Forli-4', 'Forli-40', 'Forli-44', 'Forli-45', 'Forli-51', 'Forli-58', 'Madrid-11', 'Madrid-12', 'Madrid-20', 'Madrid-22', 'Madrid-31', 'Madrid-40']) 
+2022-09-29 09:28:39.219676: loading checkpoint /home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/2d/Task503_Uterus/nnUNetTrainerV2__nnUNetPlansv2.1/fold_1/model_latest.model train= True 
+2022-09-29 09:28:47.429497: lr: 0.006314 
+2022-09-29 09:31:31.313616: Unable to plot network architecture: 
+2022-09-29 09:31:31.899495: No module named 'hiddenlayer' 
+2022-09-29 09:31:32.161176: 
+printing the network instead:
+ 
+2022-09-29 09:31:33.178427: Generic_UNet(
+  (conv_blocks_localization): ModuleList(
+    (0): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(960, 480, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(480, 480, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+    (1): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+    (2): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+    (3): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+    (4): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+  )
+  (conv_blocks_context): ModuleList(
+    (0): StackedConvLayers(
+      (blocks): Sequential(
+        (0): ConvDropoutNormNonlin(
+          (conv): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+        (1): ConvDropoutNormNonlin(
+          (conv): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+      )
+    )
+    (1): StackedConvLayers(
+      (blocks): Sequential(
+        (0): ConvDropoutNormNonlin(
+          (conv): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+          (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+        (1): ConvDropoutNormNonlin(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+      )
+    )
+    (2): StackedConvLayers(
+      (blocks): Sequential(
+        (0): ConvDropoutNormNonlin(
+          (conv): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+          (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+        (1): ConvDropoutNormNonlin(
+          (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+      )
+    )
+    (3): StackedConvLayers(
+      (blocks): Sequential(
+        (0): ConvDropoutNormNonlin(
+          (conv): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+          (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+        (1): ConvDropoutNormNonlin(
+          (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+      )
+    )
+    (4): StackedConvLayers(
+      (blocks): Sequential(
+        (0): ConvDropoutNormNonlin(
+          (conv): Conv2d(256, 480, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+        (1): ConvDropoutNormNonlin(
+          (conv): Conv2d(480, 480, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+      )
+    )
+    (5): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(480, 480, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(480, 480, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+  )
+  (td): ModuleList()
+  (tu): ModuleList(
+    (0): ConvTranspose2d(480, 480, kernel_size=(2, 2), stride=(2, 2), bias=False)
+    (1): ConvTranspose2d(480, 256, kernel_size=(2, 2), stride=(2, 2), bias=False)
+    (2): ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2), bias=False)
+    (3): ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2), bias=False)
+    (4): ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2), bias=False)
+  )
+  (seg_outputs): ModuleList(
+    (0): Conv2d(480, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (1): Conv2d(256, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (2): Conv2d(128, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (3): Conv2d(64, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (4): Conv2d(32, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  )
+) 
+2022-09-29 09:31:33.983920: 
+ 
+2022-09-29 09:31:34.613032: 
+epoch:  400 
+2022-09-29 09:33:32.866915: train loss : -0.9540 
+2022-09-29 09:33:39.842891: validation loss: -0.7919 
+2022-09-29 09:33:39.845207: Average global foreground Dice: [0.8188] 
+2022-09-29 09:33:39.847059: (interpret this as an estimate for the Dice of the different classes. This is not exact.) 
+2022-09-29 09:33:40.565089: lr: 0.006305 
+2022-09-29 09:33:40.566496: This epoch took 125.681974 s
+ 
+2022-09-29 09:33:40.567442: 
+epoch:  401 
+2022-09-29 09:35:15.819841: train loss : -0.9551 
+2022-09-29 09:35:22.351400: validation loss: -0.7987 
+2022-09-29 09:35:22.353128: Average global foreground Dice: [0.8261] 
+2022-09-29 09:35:22.354182: (interpret this as an estimate for the Dice of the different classes. This is not exact.) 
+2022-09-29 09:35:22.841649: lr: 0.006296 
+2022-09-29 09:35:22.842765: This epoch took 102.274276 s
+ 
+2022-09-29 09:35:22.843662: 
+epoch:  402 
+2022-09-29 09:36:59.276921: train loss : -0.9546 
+2022-09-29 09:37:05.871197: validation loss: -0.7939 
+2022-09-29 09:37:05.872944: Average global foreground Dice: [0.8231] 
+2022-09-29 09:37:05.873990: (interpret this as an estimate for the Dice of the different classes. This is not exact.) 
+2022-09-29 09:37:06.358426: lr: 0.006286 
+2022-09-29 09:37:06.359512: This epoch took 103.514871 s
+ 
+2022-09-29 09:37:06.360405: 
+epoch:  403 
+2022-09-29 09:38:43.079195: train loss : -0.9557 
+2022-09-29 09:38:49.654325: validation loss: -0.8009 
+2022-09-29 09:38:49.655921: Average global foreground Dice: [0.8284] 
+2022-09-29 09:38:49.657022: (interpret this as an estimate for the Dice of the different classes. This is not exact.) 
+2022-09-29 09:38:50.130931: lr: 0.006277 
+2022-09-29 09:38:50.132332: This epoch took 103.770879 s
+ 
+2022-09-29 09:38:50.133218: 
+epoch:  404 
