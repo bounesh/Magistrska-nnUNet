@@ -1,0 +1,2386 @@
+{
+    "author": "Fabian",
+    "description": "",
+    "experiment_name": "ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1",
+    "id": "522b1f4b69a9",
+    "name": "",
+    "results": {
+        "all": [
+            {
+                "1": {
+                    "Accuracy": 0.9955824042543266,
+                    "Dice": 0.721952174338564,
+                    "False Discovery Rate": 0.006464936697494816,
+                    "False Negative Rate": 0.4330293092846895,
+                    "False Omission Rate": 0.004405708914587844,
+                    "False Positive Rate": 3.7700006388030616e-05,
+                    "Jaccard": 0.564886665305289,
+                    "Negative Predictive Value": 0.9955942910854122,
+                    "Precision": 0.9935350633025052,
+                    "Recall": 0.5669706907153105,
+                    "Total Positives Reference": 19516,
+                    "Total Positives Test": 11137,
+                    "True Negative Rate": 0.999962299993612
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Athens-1.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Athens-1.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9981072005197138,
+                    "Dice": 0.926127889634601,
+                    "False Discovery Rate": 0.052543746721975926,
+                    "False Negative Rate": 0.09426136104653815,
+                    "False Omission Rate": 0.0012504572815856861,
+                    "False Positive Rate": 0.0006667356393189605,
+                    "Jaccard": 0.8624191658348161,
+                    "Negative Predictive Value": 0.9987495427184143,
+                    "Precision": 0.9474562532780241,
+                    "Recall": 0.9057386389534618,
+                    "Total Positives Reference": 21939,
+                    "Total Positives Test": 20973,
+                    "True Negative Rate": 0.999333264360681
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Athens-2.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Athens-2.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9955961103573044,
+                    "Dice": 0.8444841960677836,
+                    "False Discovery Rate": 0.023311659524161366,
+                    "False Negative Rate": 0.25619671946656164,
+                    "False Omission Rate": 0.004169543740372868,
+                    "False Positive Rate": 0.0002900539978496486,
+                    "Jaccard": 0.7308287720462211,
+                    "Negative Predictive Value": 0.9958304562596272,
+                    "Precision": 0.9766883404758386,
+                    "Recall": 0.7438032805334384,
+                    "Total Positives Reference": 35543,
+                    "Total Positives Test": 27068,
+                    "True Negative Rate": 0.9997099460021504
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Athens-4.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Athens-4.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986354351325468,
+                    "Dice": 0.8577906565209698,
+                    "False Discovery Rate": 0.056770364604869505,
+                    "False Negative Rate": 0.2134555706549297,
+                    "False Omission Rate": 0.001121761784227991,
+                    "False Positive Rate": 0.00024900034469588217,
+                    "Jaccard": 0.7509925053740535,
+                    "Negative Predictive Value": 0.998878238215772,
+                    "Precision": 0.9432296353951305,
+                    "Recall": 0.7865444293450703,
+                    "Total Positives Reference": 49303,
+                    "Total Positives Test": 41113,
+                    "True Negative Rate": 0.9997509996553041
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-10.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-10.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990164571037061,
+                    "Dice": 0.9463800003464944,
+                    "False Discovery Rate": 0.04315992292870907,
+                    "False Negative Rate": 0.06385385248149167,
+                    "False Omission Rate": 0.0005974520258530288,
+                    "False Positive Rate": 0.0003951743819226028,
+                    "Jaccard": 0.8982175743225467,
+                    "Negative Predictive Value": 0.999402547974147,
+                    "Precision": 0.9568400770712909,
+                    "Recall": 0.9361461475185083,
+                    "Total Positives Reference": 58352,
+                    "Total Positives Test": 57090,
+                    "True Negative Rate": 0.9996048256180774
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-11.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-11.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.999395629939563,
+                    "Dice": 0.8219553308048884,
+                    "False Discovery Rate": 0.2668671302386769,
+                    "False Negative Rate": 0.06473267801486449,
+                    "False Omission Rate": 9.674024777685536e-05,
+                    "False Positive Rate": 0.0005085724907409883,
+                    "Jaccard": 0.6977284922196387,
+                    "Negative Predictive Value": 0.9999032597522232,
+                    "Precision": 0.7331328697613231,
+                    "Recall": 0.9352673219851355,
+                    "Total Positives Reference": 8342,
+                    "Total Positives Test": 10642,
+                    "True Negative Rate": 0.999491427509259
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-12.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-12.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996793177665309,
+                    "Dice": 0.9663059456676106,
+                    "False Discovery Rate": 0.045889164056221565,
+                    "False Negative Rate": 0.021183161153548458,
+                    "False Omission Rate": 9.999857031432434e-05,
+                    "False Positive Rate": 0.00022220953310658764,
+                    "Jaccard": 0.9348084586707803,
+                    "Negative Predictive Value": 0.9999000014296857,
+                    "Precision": 0.9541108359437784,
+                    "Recall": 0.9788168388464515,
+                    "Total Positives Reference": 59434,
+                    "Total Positives Test": 60973,
+                    "True Negative Rate": 0.9997777904668934
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-13.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-13.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9998821299703159,
+                    "Dice": 0.9534424503049717,
+                    "False Discovery Rate": 0.042313117066290595,
+                    "False Negative Rate": 0.05076452599388381,
+                    "False Omission Rate": 6.462667361950306e-05,
+                    "False Positive Rate": 5.3392688205033956e-05,
+                    "Jaccard": 0.9110272536687631,
+                    "Negative Predictive Value": 0.9999353733263805,
+                    "Precision": 0.9576868829337094,
+                    "Recall": 0.9492354740061162,
+                    "Total Positives Reference": 11445,
+                    "Total Positives Test": 11344,
+                    "True Negative Rate": 0.999946607311795
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-14.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-14.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9993881858855465,
+                    "Dice": 0.870256012412723,
+                    "False Discovery Rate": 0.15038778477944736,
+                    "False Negative Rate": 0.10807200559760832,
+                    "False Omission Rate": 0.0002492199591302737,
+                    "False Positive Rate": 0.00036403349108116156,
+                    "Jaccard": 0.7703125858374993,
+                    "Negative Predictive Value": 0.9997507800408697,
+                    "Precision": 0.8496122152205526,
+                    "Recall": 0.8919279944023917,
+                    "Total Positives Reference": 31442,
+                    "Total Positives Test": 33008,
+                    "True Negative Rate": 0.9996359665089188
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-15.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-15.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9978641851832356,
+                    "Dice": 0.8555606829718505,
+                    "False Discovery Rate": 0.1379798963822344,
+                    "False Negative Rate": 0.15080265224219158,
+                    "False Omission Rate": 0.0011316131199035264,
+                    "False Positive Rate": 0.0010201041710998782,
+                    "Jaccard": 0.7475806451612903,
+                    "Negative Predictive Value": 0.9988683868800965,
+                    "Precision": 0.8620201036177656,
+                    "Recall": 0.8491973477578084,
+                    "Total Positives Reference": 22924,
+                    "Total Positives Test": 22583,
+                    "True Negative Rate": 0.9989798958289001
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-16.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-16.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989131623650154,
+                    "Dice": 0.8260399027259648,
+                    "False Discovery Rate": 0.011247256766642288,
+                    "False Negative Rate": 0.2906872499070693,
+                    "False Omission Rate": 0.0010602521332848747,
+                    "False Positive Rate": 2.945966189893401e-05,
+                    "Jaccard": 0.7036354171185631,
+                    "Negative Predictive Value": 0.9989397478667151,
+                    "Precision": 0.9887527432333577,
+                    "Recall": 0.7093127500929307,
+                    "Total Positives Reference": 45733,
+                    "Total Positives Test": 32808,
+                    "True Negative Rate": 0.9999705403381011
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-17.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-17.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9993238718930162,
+                    "Dice": 0.8823090435241846,
+                    "False Discovery Rate": 0.01904470143728776,
+                    "False Negative Rate": 0.19831003546839143,
+                    "False Omission Rate": 0.0006285478982925518,
+                    "False Positive Rate": 4.936017697676487e-05,
+                    "Jaccard": 0.7894034020872709,
+                    "Negative Predictive Value": 0.9993714521017074,
+                    "Precision": 0.9809552985627122,
+                    "Recall": 0.8016899645316086,
+                    "Total Positives Reference": 47930,
+                    "Total Positives Test": 39171,
+                    "True Negative Rate": 0.9999506398230232
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-19.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-19.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9993878871304007,
+                    "Dice": 0.9425580235971861,
+                    "False Discovery Rate": 0.03968576459433837,
+                    "False Negative Rate": 0.07455348402114559,
+                    "False Omission Rate": 0.000406699830840403,
+                    "False Positive Rate": 0.0002086722922722828,
+                    "Jaccard": 0.8913567312729178,
+                    "Negative Predictive Value": 0.9995933001691596,
+                    "Precision": 0.9603142354056616,
+                    "Recall": 0.9254465159788544,
+                    "Total Positives Reference": 45967,
+                    "Total Positives Test": 44298,
+                    "True Negative Rate": 0.9997913277077277
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-2.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-2.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994720394736842,
+                    "Dice": 0.9153902474740079,
+                    "False Discovery Rate": 0.033279722875170115,
+                    "False Negative Rate": 0.1307636687246232,
+                    "False Omission Rate": 0.00043091487021049396,
+                    "False Positive Rate": 9.864281784022211e-05,
+                    "Jaccard": 0.8439812064589296,
+                    "Negative Predictive Value": 0.9995690851297895,
+                    "Precision": 0.9667202771248299,
+                    "Recall": 0.8692363312753768,
+                    "Total Positives Reference": 17979,
+                    "Total Positives Test": 16166,
+                    "True Negative Rate": 0.9999013571821598
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-20.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-20.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9978665124455839,
+                    "Dice": 0.5419540821579326,
+                    "False Discovery Rate": 0.011641006383777741,
+                    "False Negative Rate": 0.6266666666666667,
+                    "False Omission Rate": 0.002121330705277638,
+                    "False Positive Rate": 1.4916266814490875e-05,
+                    "Jaccard": 0.3716989125829685,
+                    "Negative Predictive Value": 0.9978786692947224,
+                    "Precision": 0.9883589936162223,
+                    "Recall": 0.37333333333333335,
+                    "Total Positives Reference": 28200,
+                    "Total Positives Test": 10652,
+                    "True Negative Rate": 0.9999850837331855
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-21.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-21.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996668530724222,
+                    "Dice": 0.9091526410243973,
+                    "False Discovery Rate": 0.04445350734094622,
+                    "False Negative Rate": 0.13294476824868162,
+                    "False Omission Rate": 0.00025604311644919335,
+                    "False Positive Rate": 7.769986999528466e-05,
+                    "Jaccard": 0.8334370831480659,
+                    "Negative Predictive Value": 0.9997439568835508,
+                    "Precision": 0.9555464926590538,
+                    "Recall": 0.8670552317513184,
+                    "Total Positives Reference": 10809,
+                    "Total Positives Test": 9808,
+                    "True Negative Rate": 0.9999223001300047
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-22.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-22.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9967172122379119,
+                    "Dice": 0.05215259690516317,
+                    "False Discovery Rate": 0.012761020881670526,
+                    "False Negative Rate": 0.9732162527932521,
+                    "False Omission Rate": 0.003281920610253407,
+                    "False Positive Rate": 1.171332884131182e-06,
+                    "Jaccard": 0.026774477724641327,
+                    "Negative Predictive Value": 0.9967180793897465,
+                    "Precision": 0.9872389791183295,
+                    "Recall": 0.02678374720674787,
+                    "Total Positives Reference": 31773,
+                    "Total Positives Test": 862,
+                    "True Negative Rate": 0.9999988286671159
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-23.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-23.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9993820741888464,
+                    "Dice": 0.8321584619866006,
+                    "False Discovery Rate": 0.16521535854128921,
+                    "False Negative Rate": 0.1704512457169406,
+                    "False Omission Rate": 0.0003153325877803734,
+                    "False Positive Rate": 0.0003037327323859307,
+                    "Jaccard": 0.712561109448269,
+                    "Negative Predictive Value": 0.9996846674122196,
+                    "Precision": 0.8347846414587108,
+                    "Recall": 0.8295487542830594,
+                    "Total Positives Reference": 17219,
+                    "Total Positives Test": 17111,
+                    "True Negative Rate": 0.9996962672676141
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-24.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-24.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989198114907728,
+                    "Dice": 0.8271276063052057,
+                    "False Discovery Rate": 0.04562052230182578,
+                    "False Negative Rate": 0.2701823837127103,
+                    "False Omission Rate": 0.0009592606615158903,
+                    "False Positive Rate": 0.0001239641395732738,
+                    "Jaccard": 0.7052153420540319,
+                    "Negative Predictive Value": 0.9990407393384841,
+                    "Precision": 0.9543794776981742,
+                    "Recall": 0.7298176162872897,
+                    "Total Positives Reference": 28292,
+                    "Total Positives Test": 21635,
+                    "True Negative Rate": 0.9998760358604267
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-25.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-25.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.999085117481881,
+                    "Dice": 0.9210372541694207,
+                    "False Discovery Rate": 0.03915415825555135,
+                    "False Negative Rate": 0.11560395893888664,
+                    "False Omission Rate": 0.0007013496963738413,
+                    "False Positive Rate": 0.00021874722936920943,
+                    "Jaccard": 0.8536321181881137,
+                    "Negative Predictive Value": 0.9992986503036262,
+                    "Precision": 0.9608458417444486,
+                    "Recall": 0.8843960410611134,
+                    "Total Positives Reference": 54358,
+                    "Total Positives Test": 50033,
+                    "True Negative Rate": 0.9997812527706308
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-26.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-26.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9997019692778102,
+                    "Dice": 0.9570238173348206,
+                    "False Discovery Rate": 0.03095934095136854,
+                    "False Negative Rate": 0.054698639014906014,
+                    "False Omission Rate": 0.00019267347689790222,
+                    "False Positive Rate": 0.00010639050795757665,
+                    "Jaccard": 0.9175893306492199,
+                    "Negative Predictive Value": 0.9998073265231021,
+                    "Precision": 0.9690406590486315,
+                    "Recall": 0.945301360985094,
+                    "Total Positives Reference": 23145,
+                    "Total Positives Test": 22578,
+                    "True Negative Rate": 0.9998936094920424
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-29.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-29.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9993221547730715,
+                    "Dice": 0.8455089820359282,
+                    "False Discovery Rate": 0.05977452923686821,
+                    "False Negative Rate": 0.23187085673801933,
+                    "False Omission Rate": 0.0005610287077238788,
+                    "False Positive Rate": 0.00011820876844470529,
+                    "Jaccard": 0.7323651452282157,
+                    "Negative Predictive Value": 0.9994389712922761,
+                    "Precision": 0.9402254707631318,
+                    "Recall": 0.7681291432619807,
+                    "Total Positives Reference": 19761,
+                    "Total Positives Test": 16144,
+                    "True Negative Rate": 0.9998817912315553
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-3.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-3.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9965272763819095,
+                    "Dice": 0.5440996411230736,
+                    "False Discovery Rate": 0.0009303046747809463,
+                    "False Negative Rate": 0.626149516985292,
+                    "False Omission Rate": 0.003478008092685435,
+                    "False Positive Rate": 1.940404047107158e-06,
+                    "Jaccard": 0.3737203839573123,
+                    "Negative Predictive Value": 0.9965219919073146,
+                    "Precision": 0.999069695325219,
+                    "Recall": 0.373850483014708,
+                    "Total Positives Reference": 34471,
+                    "Total Positives Test": 12899,
+                    "True Negative Rate": 0.9999980595959529
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-30.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-30.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.998890169124956,
+                    "Dice": 0.854399306147103,
+                    "False Discovery Rate": 0.0061612740505873065,
+                    "False Negative Rate": 0.25072664547849943,
+                    "False Omission Rate": 0.001093225484211242,
+                    "False Positive Rate": 2.0275444883033344e-05,
+                    "Jaccard": 0.7458089984858317,
+                    "Negative Predictive Value": 0.9989067745157888,
+                    "Precision": 0.9938387259494127,
+                    "Recall": 0.7492733545215006,
+                    "Total Positives Reference": 36813,
+                    "Total Positives Test": 27754,
+                    "True Negative Rate": 0.999979724555117
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-31.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-31.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996386179202653,
+                    "Dice": 0.9491503203710077,
+                    "False Discovery Rate": 0.026423720836414977,
+                    "False Negative Rate": 0.07407999488441985,
+                    "False Omission Rate": 0.0002707808843888334,
+                    "False Positive Rate": 9.187391579135173e-05,
+                    "Jaccard": 0.9032217821164582,
+                    "Negative Predictive Value": 0.9997292191156112,
+                    "Precision": 0.973576279163585,
+                    "Recall": 0.9259200051155801,
+                    "Total Positives Reference": 31277,
+                    "Total Positives Test": 29746,
+                    "True Negative Rate": 0.9999081260842086
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-32.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-32.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986047008547009,
+                    "Dice": 0.8153889648023371,
+                    "False Discovery Rate": 0.007570109537191061,
+                    "False Negative Rate": 0.3080491023231636,
+                    "False Omission Rate": 0.001376067394436751,
+                    "False Positive Rate": 2.3609410210068127e-05,
+                    "Jaccard": 0.688317887116662,
+                    "Negative Predictive Value": 0.9986239326055633,
+                    "Precision": 0.9924298904628089,
+                    "Recall": 0.6919508976768364,
+                    "Total Positives Reference": 25009,
+                    "Total Positives Test": 17437,
+                    "True Negative Rate": 0.9999763905897899
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-35.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-35.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9983765094554569,
+                    "Dice": 0.5966431745492626,
+                    "False Discovery Rate": 0.01273885350318471,
+                    "False Negative Rate": 0.5725005069965524,
+                    "False Omission Rate": 0.0016099553295851733,
+                    "False Positive Rate": 1.5536917601255418e-05,
+                    "Jaccard": 0.4251542898632568,
+                    "Negative Predictive Value": 0.9983900446704148,
+                    "Precision": 0.9872611464968153,
+                    "Recall": 0.4274994930034476,
+                    "Total Positives Reference": 24655,
+                    "Total Positives Test": 10676,
+                    "True Negative Rate": 0.9999844630823987
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-36.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-36.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9982868675490472,
+                    "Dice": 0.8559072057486304,
+                    "False Discovery Rate": 0.04753442914260331,
+                    "False Negative Rate": 0.22287555376560608,
+                    "False Omission Rate": 0.0014670449065786121,
+                    "False Positive Rate": 0.00025559780424766476,
+                    "Jaccard": 0.748109952312643,
+                    "Negative Predictive Value": 0.9985329550934214,
+                    "Precision": 0.9524655708573967,
+                    "Recall": 0.7771244462343939,
+                    "Total Positives Reference": 49660,
+                    "Total Positives Test": 40518,
+                    "True Negative Rate": 0.9997444021957523
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-39.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-39.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9985718882147454,
+                    "Dice": 0.8230587431304992,
+                    "False Discovery Rate": 0.1827126982780558,
+                    "False Negative Rate": 0.17108772332310518,
+                    "False Omission Rate": 0.0006883555191263262,
+                    "False Positive Rate": 0.0007455412032656428,
+                    "Jaccard": 0.6993201558077081,
+                    "Negative Predictive Value": 0.9993116444808737,
+                    "Precision": 0.8172873017219442,
+                    "Recall": 0.8289122766768948,
+                    "Total Positives Reference": 34871,
+                    "Total Positives Test": 35367,
+                    "True Negative Rate": 0.9992544587967344
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-4.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-4.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990490410423222,
+                    "Dice": 0.8126504705624863,
+                    "False Discovery Rate": 0.1756216696269982,
+                    "False Negative Rate": 0.1987483815278377,
+                    "False Omission Rate": 0.0005128679172996306,
+                    "False Positive Rate": 0.0004405080266020045,
+                    "Jaccard": 0.6844239631336405,
+                    "Negative Predictive Value": 0.9994871320827003,
+                    "Precision": 0.8243783303730018,
+                    "Recall": 0.8012516184721623,
+                    "Total Positives Reference": 23170,
+                    "Total Positives Test": 22520,
+                    "True Negative Rate": 0.999559491973398
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-40.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-40.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989061251858048,
+                    "Dice": 0.533245748485512,
+                    "False Discovery Rate": 0.014301133297355606,
+                    "False Negative Rate": 0.6345172586293146,
+                    "False Omission Rate": 0.0010854971960556504,
+                    "False Positive Rate": 9.081259279342113e-06,
+                    "Jaccard": 0.3635549363057325,
+                    "Negative Predictive Value": 0.9989145028039443,
+                    "Precision": 0.9856988667026444,
+                    "Recall": 0.3654827413706853,
+                    "Total Positives Reference": 9995,
+                    "Total Positives Test": 3706,
+                    "True Negative Rate": 0.9999909187407207
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-41.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-41.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989717779003493,
+                    "Dice": 0.8408565432362253,
+                    "False Discovery Rate": 0.25367809559891397,
+                    "False Negative Rate": 0.037186379928315416,
+                    "False Omission Rate": 0.00010529683442885867,
+                    "False Positive Rate": 0.0009259208043284062,
+                    "Jaccard": 0.7254119741001013,
+                    "Negative Predictive Value": 0.9998947031655712,
+                    "Precision": 0.746321904401086,
+                    "Recall": 0.9628136200716846,
+                    "Total Positives Reference": 24552,
+                    "Total Positives Test": 31674,
+                    "True Negative Rate": 0.9990740791956716
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-42.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-42.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994382764159722,
+                    "Dice": 0.8507458477850154,
+                    "False Discovery Rate": 0.08691967798559408,
+                    "False Negative Rate": 0.20362158167036215,
+                    "False Omission Rate": 0.0004100459449198901,
+                    "False Positive Rate": 0.00015270354393448482,
+                    "Jaccard": 0.7402591029541663,
+                    "Negative Predictive Value": 0.9995899540550801,
+                    "Precision": 0.9130803220144059,
+                    "Recall": 0.7963784183296378,
+                    "Total Positives Reference": 18942,
+                    "Total Positives Test": 16521,
+                    "True Negative Rate": 0.9998472964560655
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-44.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-44.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996271699112873,
+                    "Dice": 0.9169126542463102,
+                    "False Discovery Rate": 0.09409064830751579,
+                    "False Negative Rate": 0.07181346135005384,
+                    "False Omission Rate": 0.00015952618329580223,
+                    "False Positive Rate": 0.00021414077753989513,
+                    "Jaccard": 0.8465731391296578,
+                    "Negative Predictive Value": 0.9998404738167042,
+                    "Precision": 0.9059093516924842,
+                    "Recall": 0.9281865386499462,
+                    "Total Positives Reference": 20414,
+                    "Total Positives Test": 20916,
+                    "True Negative Rate": 0.9997858592224601
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-46.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-46.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996229570404885,
+                    "Dice": 0.947235172435086,
+                    "False Discovery Rate": 0.01581496808135241,
+                    "False Negative Rate": 0.08704061895551263,
+                    "False Omission Rate": 0.00032377300822317026,
+                    "False Positive Rate": 5.4585666556916657e-05,
+                    "Jaccard": 0.8997595166871958,
+                    "Negative Predictive Value": 0.9996762269917768,
+                    "Precision": 0.9841850319186476,
+                    "Recall": 0.9129593810444874,
+                    "Total Positives Reference": 33605,
+                    "Total Positives Test": 31173,
+                    "True Negative Rate": 0.9999454143334431
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-47.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-47.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989510531070223,
+                    "Dice": 0.8769636766499863,
+                    "False Discovery Rate": 0.049591236543183204,
+                    "False Negative Rate": 0.18594439694021403,
+                    "False Omission Rate": 0.0008572596607122671,
+                    "False Positive Rate": 0.00019595900128288601,
+                    "Jaccard": 0.7808862976346184,
+                    "Negative Predictive Value": 0.9991427403392877,
+                    "Precision": 0.9504087634568168,
+                    "Recall": 0.814055603059786,
+                    "Total Positives Reference": 43271,
+                    "Total Positives Test": 37063,
+                    "True Negative Rate": 0.9998040409987171
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-49.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-49.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995182026491325,
+                    "Dice": 0.9478541068495555,
+                    "False Discovery Rate": 0.059773145614646084,
+                    "False Negative Rate": 0.04439388193654403,
+                    "False Omission Rate": 0.00020437478424843036,
+                    "False Positive Rate": 0.00027965582433009395,
+                    "Jaccard": 0.9008770675437342,
+                    "Negative Predictive Value": 0.9997956252157516,
+                    "Precision": 0.9402268543853539,
+                    "Recall": 0.955606118063456,
+                    "Total Positives Reference": 39555,
+                    "Total Positives Test": 40202,
+                    "True Negative Rate": 0.9997203441756699
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-5.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-5.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9985975236792293,
+                    "Dice": 0.6976789545543203,
+                    "False Discovery Rate": 0.39367743029070257,
+                    "False Negative Rate": 0.17855092433115172,
+                    "False Omission Rate": 0.00035269144397774257,
+                    "False Positive Rate": 0.0010528002560264982,
+                    "Jaccard": 0.535719634566422,
+                    "Negative Predictive Value": 0.9996473085560222,
+                    "Precision": 0.6063225697092974,
+                    "Recall": 0.8214490756688483,
+                    "Total Positives Reference": 8709,
+                    "Total Positives Test": 11799,
+                    "True Negative Rate": 0.9989471997439735
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-6.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-6.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9974539855188543,
+                    "Dice": 0.8083502901499736,
+                    "False Discovery Rate": 0.14095787281755567,
+                    "False Negative Rate": 0.2366922857956163,
+                    "False Omission Rate": 0.00167544351901573,
+                    "False Positive Rate": 0.0008872846066203532,
+                    "Jaccard": 0.6783455603339236,
+                    "Negative Predictive Value": 0.9983245564809843,
+                    "Precision": 0.8590421271824443,
+                    "Recall": 0.7633077142043837,
+                    "Total Positives Reference": 21078,
+                    "Total Positives Test": 18729,
+                    "True Negative Rate": 0.9991127153933796
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-7.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-7.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9988084232866017,
+                    "Dice": 0.8905185626702997,
+                    "False Discovery Rate": 0.11025799179020357,
+                    "False Negative Rate": 0.10870352615319057,
+                    "False Omission Rate": 0.0005942755493350625,
+                    "False Positive Rate": 0.0006038210551143619,
+                    "Jaccard": 0.8026439494234349,
+                    "Negative Predictive Value": 0.9994057244506649,
+                    "Precision": 0.8897420082097964,
+                    "Recall": 0.8912964738468094,
+                    "Total Positives Reference": 46935,
+                    "Total Positives Test": 47017,
+                    "True Negative Rate": 0.9993961789448856
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Bologna-8.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Bologna-8.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987576584774037,
+                    "Dice": 0.9338696582773637,
+                    "False Discovery Rate": 0.05806595697163697,
+                    "False Negative Rate": 0.07405781192828398,
+                    "False Omission Rate": 0.0007081853136221754,
+                    "False Positive Rate": 0.0005459231613150761,
+                    "Jaccard": 0.8759432329525787,
+                    "Negative Predictive Value": 0.9992918146863778,
+                    "Precision": 0.941934043028363,
+                    "Recall": 0.925942188071716,
+                    "Total Positives Reference": 27330,
+                    "Total Positives Test": 26866,
+                    "True Negative Rate": 0.9994540768386849
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-1.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-1.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9917035666412759,
+                    "Dice": 0.7795155306612351,
+                    "False Discovery Rate": 0.003480617477482295,
+                    "False Negative Rate": 0.35987848170398684,
+                    "False Omission Rate": 0.008368366890540126,
+                    "False Positive Rate": 5.242575152919482e-05,
+                    "Jaccard": 0.6386935272380498,
+                    "Negative Predictive Value": 0.9916316331094599,
+                    "Precision": 0.9965193825225177,
+                    "Recall": 0.6401215182960132,
+                    "Total Positives Reference": 117184,
+                    "Total Positives Test": 75274,
+                    "True Negative Rate": 0.9999475742484708
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-10.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-10.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9940823370229941,
+                    "Dice": 0.7752495009980039,
+                    "False Discovery Rate": 0.00982664318160753,
+                    "False Negative Rate": 0.3630128816793893,
+                    "False Omission Rate": 0.005876951863448487,
+                    "False Positive Rate": 0.00010293660658788895,
+                    "Jaccard": 0.6329856584093873,
+                    "Negative Predictive Value": 0.9941230481365515,
+                    "Precision": 0.9901733568183925,
+                    "Recall": 0.6369871183206107,
+                    "Total Positives Reference": 16768,
+                    "Total Positives Test": 10787,
+                    "True Negative Rate": 0.9998970633934121
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-11.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-11.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9976306763478819,
+                    "Dice": 0.8977309620865048,
+                    "False Discovery Rate": 0.013869075923284235,
+                    "False Negative Rate": 0.17612394888432759,
+                    "False Omission Rate": 0.0022467620442493874,
+                    "False Positive Rate": 0.0001481241974842229,
+                    "Jaccard": 0.8144390627045425,
+                    "Negative Predictive Value": 0.9977532379557507,
+                    "Precision": 0.9861309240767158,
+                    "Recall": 0.8238760511156724,
+                    "Total Positives Reference": 30206,
+                    "Total Positives Test": 25236,
+                    "True Negative Rate": 0.9998518758025158
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-12.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-12.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9981244787087757,
+                    "Dice": 0.8520204894706886,
+                    "False Discovery Rate": 0.23117416704115046,
+                    "False Negative Rate": 0.04459513362584766,
+                    "False Omission Rate": 0.00025380560851370255,
+                    "False Positive Rate": 0.0016327252365093692,
+                    "Jaccard": 0.7421913733267228,
+                    "Negative Predictive Value": 0.9997461943914863,
+                    "Precision": 0.7688258329588495,
+                    "Recall": 0.9554048663741523,
+                    "Total Positives Reference": 12535,
+                    "Total Positives Test": 15577,
+                    "True Negative Rate": 0.9983672747634906
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-14.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-14.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9975652830141994,
+                    "Dice": 0.8634566016790397,
+                    "False Discovery Rate": 0.0375096674400619,
+                    "False Negative Rate": 0.21709864116758937,
+                    "False Omission Rate": 0.002151918861871253,
+                    "False Positive Rate": 0.0003029888443880635,
+                    "Jaccard": 0.7597216287161956,
+                    "Negative Predictive Value": 0.9978480811381287,
+                    "Precision": 0.9624903325599381,
+                    "Recall": 0.7829013588324106,
+                    "Total Positives Reference": 15896,
+                    "Total Positives Test": 12930,
+                    "True Negative Rate": 0.9996970111556119
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-15.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-15.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9978964926783184,
+                    "Dice": 0.9379745611065435,
+                    "False Discovery Rate": 0.05240142668686176,
+                    "False Negative Rate": 0.07145592952554225,
+                    "False Omission Rate": 0.0012448651917342619,
+                    "False Positive Rate": 0.0008948648524620406,
+                    "Jaccard": 0.8831940617955782,
+                    "Negative Predictive Value": 0.9987551348082657,
+                    "Precision": 0.9475985733131382,
+                    "Recall": 0.9285440704744578,
+                    "Total Positives Reference": 41774,
+                    "Total Positives Test": 40934,
+                    "True Negative Rate": 0.999105135147538
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-16.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-16.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986002101610721,
+                    "Dice": 0.9508613462422587,
+                    "False Discovery Rate": 0.04988380262660108,
+                    "False Negative Rate": 0.04839233517375774,
+                    "False Omission Rate": 0.0006986836768267569,
+                    "False Positive Rate": 0.0007213315640000051,
+                    "Jaccard": 0.906325720472238,
+                    "Negative Predictive Value": 0.9993013163231732,
+                    "Precision": 0.9501161973733989,
+                    "Recall": 0.9516076648262423,
+                    "Total Positives Reference": 36948,
+                    "Total Positives Test": 37006,
+                    "True Negative Rate": 0.999278668436
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-17.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-17.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9979440860215054,
+                    "Dice": 0.6991608391608392,
+                    "False Discovery Rate": 0.03494208494208495,
+                    "False Negative Rate": 0.45186403508771933,
+                    "False Omission Rate": 0.0019743019757392254,
+                    "False Positive Rate": 8.687805393159387e-05,
+                    "Jaccard": 0.5374690893452317,
+                    "Negative Predictive Value": 0.9980256980242608,
+                    "Precision": 0.965057915057915,
+                    "Recall": 0.5481359649122807,
+                    "Total Positives Reference": 9120,
+                    "Total Positives Test": 5180,
+                    "True Negative Rate": 0.9999131219460684
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-18.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-18.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9988510486359656,
+                    "Dice": 0.9168998063147539,
+                    "False Discovery Rate": 0.044837304637458386,
+                    "False Negative Rate": 0.11841560744900981,
+                    "False Omission Rate": 0.0008570934646944246,
+                    "False Positive Rate": 0.0002997005135582098,
+                    "Jaccard": 0.8465512347431167,
+                    "Negative Predictive Value": 0.9991429065353056,
+                    "Precision": 0.9551626953625416,
+                    "Recall": 0.8815843925509902,
+                    "Total Positives Reference": 16915,
+                    "Total Positives Test": 15612,
+                    "True Negative Rate": 0.9997002994864418
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-2.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-2.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.993969583231409,
+                    "Dice": 0.7709339043954847,
+                    "False Discovery Rate": 0.36924630278553183,
+                    "False Negative Rate": 0.008773567295127904,
+                    "False Omission Rate": 9.128952277916384e-05,
+                    "False Positive Rate": 0.006002042837806809,
+                    "Jaccard": 0.6272517866635167,
+                    "Negative Predictive Value": 0.9999087104772209,
+                    "Precision": 0.6307536972144682,
+                    "Recall": 0.9912264327048721,
+                    "Total Positives Reference": 10714,
+                    "Total Positives Test": 16837,
+                    "True Negative Rate": 0.9939979571621932
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-20.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-20.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9962115026763972,
+                    "Dice": 0.8478131588906309,
+                    "False Discovery Rate": 0.021749979206520886,
+                    "False Negative Rate": 0.25193194466528857,
+                    "False Omission Rate": 0.003592629712435433,
+                    "False Positive Rate": 0.00023797920616874801,
+                    "Jaccard": 0.7358295795795796,
+                    "Negative Predictive Value": 0.9964073702875645,
+                    "Precision": 0.9782500207934791,
+                    "Recall": 0.7480680553347114,
+                    "Total Positives Reference": 31445,
+                    "Total Positives Test": 24046,
+                    "True Negative Rate": 0.9997620207938313
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-21.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-21.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9970292466703949,
+                    "Dice": 0.7659227222652903,
+                    "False Discovery Rate": 0.32976292487860615,
+                    "False Negative Rate": 0.10652070442646355,
+                    "False Omission Rate": 0.0005836770716624,
+                    "False Positive Rate": 0.002404388086355902,
+                    "Jaccard": 0.6206440521060637,
+                    "Negative Predictive Value": 0.9994163229283376,
+                    "Precision": 0.6702370751213939,
+                    "Recall": 0.8934792955735364,
+                    "Total Positives Reference": 10505,
+                    "Total Positives Test": 14004,
+                    "True Negative Rate": 0.9975956119136441
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-22.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-22.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9965067715890911,
+                    "Dice": 0.7730610025077802,
+                    "False Discovery Rate": 0.0716255442670537,
+                    "False Negative Rate": 0.33773360252627216,
+                    "False Omission Rate": 0.003053763843510986,
+                    "False Positive Rate": 0.0004631969600763508,
+                    "Jaccard": 0.6300728920409772,
+                    "Negative Predictive Value": 0.996946236156489,
+                    "Precision": 0.9283744557329463,
+                    "Recall": 0.6622663974737278,
+                    "Total Positives Reference": 19317,
+                    "Total Positives Test": 13780,
+                    "True Negative Rate": 0.9995368030399236
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-23.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-23.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9964895555494363,
+                    "Dice": 0.8709508517173974,
+                    "False Discovery Rate": 0.12196924376253648,
+                    "False Negative Rate": 0.13601579002043007,
+                    "False Omission Rate": 0.0018903982878612656,
+                    "False Positive Rate": 0.0016684260715401633,
+                    "Jaccard": 0.7714020714175298,
+                    "Negative Predictive Value": 0.9981096017121387,
+                    "Precision": 0.8780307562374635,
+                    "Recall": 0.8639842099795699,
+                    "Total Positives Reference": 28879,
+                    "Total Positives Test": 28417,
+                    "True Negative Rate": 0.9983315739284598
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-25.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-25.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9992708439897698,
+                    "Dice": 0.9620983501947594,
+                    "False Discovery Rate": 0.022079887573644652,
+                    "False Negative Rate": 0.05321960281535365,
+                    "False Omission Rate": 0.0005251745546989696,
+                    "False Positive Rate": 0.00021101400105016932,
+                    "Jaccard": 0.9269648529562455,
+                    "Negative Predictive Value": 0.9994748254453011,
+                    "Precision": 0.9779201124263553,
+                    "Recall": 0.9467803971846463,
+                    "Total Positives Reference": 38219,
+                    "Total Positives Test": 37002,
+                    "True Negative Rate": 0.9997889859989498
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-26.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-26.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987522571859921,
+                    "Dice": 0.9298680554400093,
+                    "False Discovery Rate": 0.04933147348008027,
+                    "False Negative Rate": 0.09004168294906867,
+                    "False Omission Rate": 0.0008256918267259573,
+                    "False Positive Rate": 0.0004331730493470909,
+                    "Jaccard": 0.8689284159462654,
+                    "Negative Predictive Value": 0.999174308173274,
+                    "Precision": 0.9506685265199197,
+                    "Recall": 0.9099583170509313,
+                    "Total Positives Reference": 30708,
+                    "Total Positives Test": 29393,
+                    "True Negative Rate": 0.9995668269506529
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-27.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-27.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9966305415987947,
+                    "Dice": 0.8889099003269905,
+                    "False Discovery Rate": 0.10319718914450149,
+                    "False Negative Rate": 0.11884528867783051,
+                    "False Omission Rate": 0.001845950930412163,
+                    "False Positive Rate": 0.0015753569611798302,
+                    "Jaccard": 0.8000340391734154,
+                    "Negative Predictive Value": 0.9981540490695878,
+                    "Precision": 0.8968028108554985,
+                    "Recall": 0.8811547113221695,
+                    "Total Positives Reference": 64016,
+                    "Total Positives Test": 62899,
+                    "True Negative Rate": 0.9984246430388202
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-28.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-28.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9977150895140665,
+                    "Dice": 0.8837112435894099,
+                    "False Discovery Rate": 0.05634781641786901,
+                    "False Negative Rate": 0.16906959097251117,
+                    "False Omission Rate": 0.0017828992931644514,
+                    "False Positive Rate": 0.0005238880817917124,
+                    "Jaccard": 0.791651119402985,
+                    "Negative Predictive Value": 0.9982171007068356,
+                    "Precision": 0.943652183582131,
+                    "Recall": 0.8309304090274888,
+                    "Total Positives Reference": 40853,
+                    "Total Positives Test": 35973,
+                    "True Negative Rate": 0.9994761119182083
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-3.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-3.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9972813380129122,
+                    "Dice": 0.6635205285512034,
+                    "False Discovery Rate": 0.10611490001155932,
+                    "False Negative Rate": 0.4724382589712103,
+                    "False Omission Rate": 0.0024076706125809393,
+                    "False Positive Rate": 0.000319836444422128,
+                    "Jaccard": 0.4964689265536723,
+                    "Negative Predictive Value": 0.997592329387419,
+                    "Precision": 0.8938850999884407,
+                    "Recall": 0.5275617410287897,
+                    "Total Positives Reference": 14658,
+                    "Total Positives Test": 8651,
+                    "True Negative Rate": 0.9996801635555779
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-30.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-30.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.997950741624211,
+                    "Dice": 0.915671605616507,
+                    "False Discovery Rate": 0.07784684479448045,
+                    "False Negative Rate": 0.09071946601630188,
+                    "False Omission Rate": 0.0011235874673297171,
+                    "False Positive Rate": 0.0009508616786445545,
+                    "Jaccard": 0.8444596769386661,
+                    "Negative Predictive Value": 0.9988764125326702,
+                    "Precision": 0.9221531552055195,
+                    "Recall": 0.9092805339836981,
+                    "Total Positives Reference": 31162,
+                    "Total Positives Test": 30727,
+                    "True Negative Rate": 0.9990491383213554
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-32.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-32.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9972092646582442,
+                    "Dice": 0.8847067483020509,
+                    "False Discovery Rate": 0.02222304392841301,
+                    "False Negative Rate": 0.1921854952037637,
+                    "False Omission Rate": 0.0025755806622243258,
+                    "False Positive Rate": 0.00024662825120458365,
+                    "Jaccard": 0.7932503374831258,
+                    "Negative Predictive Value": 0.9974244193377757,
+                    "Precision": 0.977776956071587,
+                    "Recall": 0.8078145047962363,
+                    "Total Positives Reference": 32734,
+                    "Total Positives Test": 27044,
+                    "True Negative Rate": 0.9997533717487954
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-33.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-33.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9979998826695609,
+                    "Dice": 0.9122161205318529,
+                    "False Discovery Rate": 0.013616095704187092,
+                    "False Negative Rate": 0.15157808085910462,
+                    "False Omission Rate": 0.0018764320184799141,
+                    "False Positive Rate": 0.00014523374629060726,
+                    "Jaccard": 0.8386005140817723,
+                    "Negative Predictive Value": 0.9981235679815201,
+                    "Precision": 0.9863839042958129,
+                    "Recall": 0.8484219191408954,
+                    "Total Positives Reference": 53451,
+                    "Total Positives Test": 45975,
+                    "True Negative Rate": 0.9998547662537094
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-34.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-34.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9959658963043204,
+                    "Dice": 0.830042383946327,
+                    "False Discovery Rate": 0.00877950489349455,
+                    "False Negative Rate": 0.286049967172328,
+                    "False Omission Rate": 0.00398646969647353,
+                    "False Positive Rate": 8.847294250857729e-05,
+                    "Jaccard": 0.7094636357393036,
+                    "Negative Predictive Value": 0.9960135303035265,
+                    "Precision": 0.9912204951065055,
+                    "Recall": 0.713950032827672,
+                    "Total Positives Reference": 28939,
+                    "Total Positives Test": 20844,
+                    "True Negative Rate": 0.9999115270574914
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-35.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-35.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9980207109283197,
+                    "Dice": 0.8301024428684003,
+                    "False Discovery Rate": 0.2565459806620086,
+                    "False Negative Rate": 0.06038711979306044,
+                    "False Omission Rate": 0.0003127900642721209,
+                    "False Positive Rate": 0.0016771641300039608,
+                    "Jaccard": 0.7095513943149669,
+                    "Negative Predictive Value": 0.9996872099357279,
+                    "Precision": 0.7434540193379914,
+                    "Recall": 0.9396128802069396,
+                    "Total Positives Reference": 11211,
+                    "Total Positives Test": 14169,
+                    "True Negative Rate": 0.998322835869996
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-36.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-36.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986520390070922,
+                    "Dice": 0.8225477037987979,
+                    "False Discovery Rate": 0.037552915471801174,
+                    "False Negative Rate": 0.2818422661503974,
+                    "False Omission Rate": 0.0012300566066180247,
+                    "False Positive Rate": 0.00012242975425902358,
+                    "Jaccard": 0.6985826147289127,
+                    "Negative Predictive Value": 0.998769943393382,
+                    "Precision": 0.9624470845281988,
+                    "Recall": 0.7181577338496026,
+                    "Total Positives Reference": 9814,
+                    "Total Positives Test": 7323,
+                    "True Negative Rate": 0.999877570245741
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-38.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-38.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9964422487745098,
+                    "Dice": 0.8217854589211908,
+                    "False Discovery Rate": 0.2903740738509728,
+                    "False Negative Rate": 0.023944653879613864,
+                    "False Omission Rate": 0.00020358435260528095,
+                    "False Positive Rate": 0.0033849674581777345,
+                    "Jaccard": 0.6974837181764357,
+                    "Negative Predictive Value": 0.9997964156473947,
+                    "Precision": 0.7096259261490272,
+                    "Recall": 0.9760553461203861,
+                    "Total Positives Reference": 24139,
+                    "Total Positives Test": 33202,
+                    "True Negative Rate": 0.9966150325418223
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-4.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-4.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9940130077098678,
+                    "Dice": 0.7100273515367855,
+                    "False Discovery Rate": 0.00013056534795663488,
+                    "False Negative Rate": 0.44953996549741226,
+                    "False Omission Rate": 0.006030241846060094,
+                    "False Positive Rate": 9.700704174386843e-07,
+                    "Jaccard": 0.550420470063969,
+                    "Negative Predictive Value": 0.99396975815394,
+                    "Precision": 0.9998694346520434,
+                    "Recall": 0.5504600345025877,
+                    "Total Positives Reference": 13912,
+                    "Total Positives Test": 7659,
+                    "True Negative Rate": 0.9999990299295826
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-40.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-40.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986688002295231,
+                    "Dice": 0.9082311390169724,
+                    "False Discovery Rate": 0.1607499002792182,
+                    "False Negative Rate": 0.010432700530186412,
+                    "False Omission Rate": 6.999837913589296e-05,
+                    "False Positive Rate": 0.0012702063963616617,
+                    "Jaccard": 0.8318895798138097,
+                    "Negative Predictive Value": 0.9999300016208641,
+                    "Precision": 0.8392500997207818,
+                    "Recall": 0.9895672994698136,
+                    "Total Positives Reference": 23388,
+                    "Total Positives Test": 27577,
+                    "True Negative Rate": 0.9987297936036383
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-41.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-41.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9936535215135128,
+                    "Dice": 0.8654410730973114,
+                    "False Discovery Rate": 0.02108433734939763,
+                    "False Negative Rate": 0.22445864026441775,
+                    "False Omission Rate": 0.006032668188908877,
+                    "False Positive Rate": 0.0004514654600881185,
+                    "Jaccard": 0.7627995801504461,
+                    "Negative Predictive Value": 0.9939673318110911,
+                    "Precision": 0.9789156626506024,
+                    "Recall": 0.7755413597355822,
+                    "Total Positives Reference": 67469,
+                    "Total Positives Test": 53452,
+                    "True Negative Rate": 0.9995485345399119
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-42.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-42.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9984826180109199,
+                    "Dice": 0.9311464099226946,
+                    "False Discovery Rate": 0.0706169593389051,
+                    "False Negative Rate": 0.06708351662163015,
+                    "False Omission Rate": 0.0007460201484842164,
+                    "False Positive Rate": 0.000788267119128272,
+                    "Jaccard": 0.8711636641042192,
+                    "Negative Predictive Value": 0.9992539798515158,
+                    "Precision": 0.9293830406610949,
+                    "Recall": 0.9329164833783699,
+                    "Total Positives Reference": 31826,
+                    "Total Positives Test": 31947,
+                    "True Negative Rate": 0.9992117328808717
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-44.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-44.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9984907870432942,
+                    "Dice": 0.9281655409027555,
+                    "False Discovery Rate": 0.05789530960931544,
+                    "False Negative Rate": 0.08536714210248286,
+                    "False Omission Rate": 0.0009195496482836401,
+                    "False Positive Rate": 0.0006056362880870747,
+                    "Jaccard": 0.865959787936381,
+                    "Negative Predictive Value": 0.9990804503517163,
+                    "Precision": 0.9421046903906846,
+                    "Recall": 0.9146328578975171,
+                    "Total Positives Reference": 28395,
+                    "Total Positives Test": 27567,
+                    "True Negative Rate": 0.9993943637119129
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-45.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-45.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9977250677570215,
+                    "Dice": 0.927548537406161,
+                    "False Discovery Rate": 0.06465490237026206,
+                    "False Negative Rate": 0.08011912096939822,
+                    "False Omission Rate": 0.001288389532900171,
+                    "False Positive Rate": 0.0010227928190429392,
+                    "Jaccard": 0.8648862626964817,
+                    "Negative Predictive Value": 0.9987116104670998,
+                    "Precision": 0.9353450976297379,
+                    "Recall": 0.9198808790306018,
+                    "Total Positives Reference": 48690,
+                    "Total Positives Test": 47885,
+                    "True Negative Rate": 0.9989772071809571
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-46.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-46.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9973798867451141,
+                    "Dice": 0.796292675296234,
+                    "False Discovery Rate": 0.05879633909586757,
+                    "False Negative Rate": 0.30994984411007187,
+                    "False Omission Rate": 0.002312790647687589,
+                    "False Positive Rate": 0.00032229816837348046,
+                    "Jaccard": 0.6615334632878492,
+                    "Negative Predictive Value": 0.9976872093523124,
+                    "Precision": 0.9412036609041324,
+                    "Recall": 0.6900501558899281,
+                    "Total Positives Reference": 14754,
+                    "Total Positives Test": 10817,
+                    "True Negative Rate": 0.9996777018316265
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-47.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-47.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9970519369944657,
+                    "Dice": 0.8375287159685224,
+                    "False Discovery Rate": 0.010624169986719778,
+                    "False Negative Rate": 0.27390991143692534,
+                    "False Omission Rate": 0.0028886532324628495,
+                    "False Positive Rate": 8.24579274110171e-05,
+                    "Jaccard": 0.7204726064836228,
+                    "Negative Predictive Value": 0.9971113467675371,
+                    "Precision": 0.9893758300132802,
+                    "Recall": 0.7260900885630747,
+                    "Total Positives Reference": 23599,
+                    "Total Positives Test": 17319,
+                    "True Negative Rate": 0.999917542072589
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-48.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-48.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990251782531194,
+                    "Dice": 0.9378555640105809,
+                    "False Discovery Rate": 0.031108449069741306,
+                    "False Negative Rate": 0.09125381833503032,
+                    "False Omission Rate": 0.0007442984135475484,
+                    "False Positive Rate": 0.0002381013096718343,
+                    "Jaccard": 0.88298307860262,
+                    "Negative Predictive Value": 0.9992557015864525,
+                    "Precision": 0.9688915509302587,
+                    "Recall": 0.9087461816649697,
+                    "Total Positives Reference": 28481,
+                    "Total Positives Test": 26713,
+                    "True Negative Rate": 0.9997618986903282
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-49.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-49.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9984400709584533,
+                    "Dice": 0.8846098987305663,
+                    "False Discovery Rate": 0.12664288396545254,
+                    "False Negative Rate": 0.10384356035064057,
+                    "False Omission Rate": 0.0006976497358250259,
+                    "False Positive Rate": 0.0008728798369933566,
+                    "Jaccard": 0.7930946291560103,
+                    "Negative Predictive Value": 0.999302350264175,
+                    "Precision": 0.8733571160345475,
+                    "Recall": 0.8961564396493594,
+                    "Total Positives Reference": 20762,
+                    "Total Positives Test": 21304,
+                    "True Negative Rate": 0.9991271201630066
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-51.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-51.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9985489792577695,
+                    "Dice": 0.9119858156028369,
+                    "False Discovery Rate": 0.12153299631097148,
+                    "False Negative Rate": 0.05183601238755342,
+                    "False Omission Rate": 0.0004145335583489889,
+                    "False Positive Rate": 0.0010483465118170665,
+                    "Jaccard": 0.8382113291180496,
+                    "Negative Predictive Value": 0.999585466441651,
+                    "Precision": 0.8784670036890285,
+                    "Recall": 0.9481639876124466,
+                    "Total Positives Reference": 13562,
+                    "Total Positives Test": 14638,
+                    "True Negative Rate": 0.9989516534881829
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-52.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-52.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9966470776187375,
+                    "Dice": 0.7643212508884151,
+                    "False Discovery Rate": 0.21296838407494145,
+                    "False Negative Rate": 0.2571152252003316,
+                    "False Omission Rate": 0.0018948110076199708,
+                    "False Positive Rate": 0.001482047364400274,
+                    "Jaccard": 0.6185436558150236,
+                    "Negative Predictive Value": 0.99810518899238,
+                    "Precision": 0.7870316159250585,
+                    "Recall": 0.7428847747996684,
+                    "Total Positives Reference": 14476,
+                    "Total Positives Test": 13664,
+                    "True Negative Rate": 0.9985179526355997
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-53.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-53.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986071611253197,
+                    "Dice": 0.9018844809570137,
+                    "False Discovery Rate": 0.09895964577558591,
+                    "False Negative Rate": 0.09726980921123818,
+                    "False Omission Rate": 0.0006947054276405182,
+                    "False Positive Rate": 0.0007080903377995051,
+                    "Jaccard": 0.8213020081375508,
+                    "Negative Predictive Value": 0.9993052945723595,
+                    "Precision": 0.9010403542244141,
+                    "Recall": 0.9027301907887618,
+                    "Total Positives Reference": 27727,
+                    "Total Positives Test": 27779,
+                    "True Negative Rate": 0.9992919096622005
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-54.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-54.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9984936761351856,
+                    "Dice": 0.9316546198592013,
+                    "False Discovery Rate": 0.06575264928775826,
+                    "False Negative Rate": 0.07092376008505852,
+                    "False Omission Rate": 0.0007924531070765573,
+                    "False Positive Rate": 0.0007306534089122074,
+                    "Jaccard": 0.8720537732249258,
+                    "Negative Predictive Value": 0.9992075468929235,
+                    "Precision": 0.9342473507122417,
+                    "Recall": 0.9290762399149415,
+                    "Total Positives Reference": 31978,
+                    "Total Positives Test": 31801,
+                    "True Negative Rate": 0.9992693465910878
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-55.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-55.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9972425081843365,
+                    "Dice": 0.863932898415657,
+                    "False Discovery Rate": 0.12684458398744114,
+                    "False Negative Rate": 0.14509683369197668,
+                    "False Omission Rate": 0.001500818772953465,
+                    "False Positive Rate": 0.0012848769348687838,
+                    "Jaccard": 0.760459392945037,
+                    "Negative Predictive Value": 0.9984991812270465,
+                    "Precision": 0.8731554160125589,
+                    "Recall": 0.8549031663080233,
+                    "Total Positives Reference": 26024,
+                    "Total Positives Test": 25480,
+                    "True Negative Rate": 0.9987151230651312
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-56.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-56.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9985489792577695,
+                    "Dice": 0.9119858156028369,
+                    "False Discovery Rate": 0.12153299631097148,
+                    "False Negative Rate": 0.05183601238755342,
+                    "False Omission Rate": 0.0004145335583489889,
+                    "False Positive Rate": 0.0010483465118170665,
+                    "Jaccard": 0.8382113291180496,
+                    "Negative Predictive Value": 0.999585466441651,
+                    "Precision": 0.8784670036890285,
+                    "Recall": 0.9481639876124466,
+                    "Total Positives Reference": 13562,
+                    "Total Positives Test": 14638,
+                    "True Negative Rate": 0.9989516534881829
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-57.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-57.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9947607131685956,
+                    "Dice": 0.8563219970857504,
+                    "False Discovery Rate": 0.0015387081263023017,
+                    "False Negative Rate": 0.2503910856537749,
+                    "False Omission Rate": 0.0052980725994827196,
+                    "False Positive Rate": 2.4572829515290273e-05,
+                    "Jaccard": 0.7487439601913507,
+                    "Negative Predictive Value": 0.9947019274005173,
+                    "Precision": 0.9984612918736977,
+                    "Recall": 0.7496089143462251,
+                    "Total Positives Reference": 41551,
+                    "Total Positives Test": 31195,
+                    "True Negative Rate": 0.9999754271704847
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-58.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-58.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9952766956227164,
+                    "Dice": 0.818219444559414,
+                    "False Discovery Rate": 0.01676116582114795,
+                    "False Negative Rate": 0.29936915225404026,
+                    "False Omission Rate": 0.0045917366135956065,
+                    "False Positive Rate": 0.00018400228446757705,
+                    "Jaccard": 0.6923615732147235,
+                    "Negative Predictive Value": 0.9954082633864044,
+                    "Precision": 0.983238834178852,
+                    "Recall": 0.7006308477459597,
+                    "Total Positives Reference": 28216,
+                    "Total Positives Test": 20106,
+                    "True Negative Rate": 0.9998159977155324
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-59.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-59.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9981351605670737,
+                    "Dice": 0.8607985162535402,
+                    "False Discovery Rate": 0.05658563384150528,
+                    "False Negative Rate": 0.20851289378471183,
+                    "False Omission Rate": 0.0015283422351498445,
+                    "False Positive Rate": 0.0003483759592176616,
+                    "Jaccard": 0.7556156909334918,
+                    "Negative Predictive Value": 0.9984716577648501,
+                    "Precision": 0.9434143661584947,
+                    "Recall": 0.7914871062152882,
+                    "Total Positives Reference": 43393,
+                    "Total Positives Test": 36405,
+                    "True Negative Rate": 0.9996516240407823
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-7.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-7.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.997597457491945,
+                    "Dice": 0.8449562532166752,
+                    "False Discovery Rate": 0.10246013667425968,
+                    "False Negative Rate": 0.20180698484725712,
+                    "False Omission Rate": 0.001667357354080289,
+                    "False Positive Rate": 0.0007535272378821345,
+                    "Jaccard": 0.7315361479336081,
+                    "Negative Predictive Value": 0.9983326426459197,
+                    "Precision": 0.8975398633257403,
+                    "Recall": 0.7981930151527429,
+                    "Total Positives Reference": 24682,
+                    "Total Positives Test": 21950,
+                    "True Negative Rate": 0.9992464727621179
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-8.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-8.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9977688888888889,
+                    "Dice": 0.9007709033405812,
+                    "False Discovery Rate": 0.1344729344729345,
+                    "False Negative Rate": 0.06099320008242326,
+                    "False Omission Rate": 0.0006655648869551531,
+                    "False Positive Rate": 0.0015904858395091592,
+                    "Jaccard": 0.8194569322064377,
+                    "Negative Predictive Value": 0.9993344351130449,
+                    "Precision": 0.8655270655270655,
+                    "Recall": 0.9390067999175767,
+                    "Total Positives Reference": 29118,
+                    "Total Positives Test": 31590,
+                    "True Negative Rate": 0.9984095141604908
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Forli-9.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Forli-9.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.99954679657465,
+                    "Dice": 0.8643652266101246,
+                    "False Discovery Rate": 0.14357930672268904,
+                    "False Negative Rate": 0.12754146602461214,
+                    "False Omission Rate": 0.00021146035273627146,
+                    "False Positive Rate": 0.00024250101374734268,
+                    "Jaccard": 0.7611295874905187,
+                    "Negative Predictive Value": 0.9997885396472638,
+                    "Precision": 0.856420693277311,
+                    "Recall": 0.8724585339753879,
+                    "Total Positives Reference": 14952,
+                    "Total Positives Test": 15232,
+                    "True Negative Rate": 0.9997574989862527
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-11.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-11.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995844343774392,
+                    "Dice": 0.9408651271226489,
+                    "False Discovery Rate": 0.06552349959321613,
+                    "False Negative Rate": 0.052658292094911796,
+                    "False Omission Rate": 0.00018441344249572265,
+                    "False Positive Rate": 0.00023261634399762698,
+                    "Jaccard": 0.8883336307930275,
+                    "Negative Predictive Value": 0.9998155865575042,
+                    "Precision": 0.9344765004067839,
+                    "Recall": 0.9473417079050882,
+                    "Total Positives Reference": 31524,
+                    "Total Positives Test": 31958,
+                    "True Negative Rate": 0.9997673836560024
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-12.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-12.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995970974724162,
+                    "Dice": 0.8931237721021611,
+                    "False Discovery Rate": 0.025021446954532456,
+                    "False Negative Rate": 0.17605123247945864,
+                    "False Omission Rate": 0.0003603212819425002,
+                    "False Positive Rate": 4.32918477863975e-05,
+                    "Jaccard": 0.8068867589634363,
+                    "Negative Predictive Value": 0.9996396787180575,
+                    "Precision": 0.9749785530454675,
+                    "Recall": 0.8239487675205414,
+                    "Total Positives Reference": 16552,
+                    "Total Positives Test": 13988,
+                    "True Negative Rate": 0.9999567081522136
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-13.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-13.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995548088713541,
+                    "Dice": 0.8678812415654521,
+                    "False Discovery Rate": 0.01674183930892137,
+                    "False Negative Rate": 0.2232622742919258,
+                    "False Omission Rate": 0.00042092003304968005,
+                    "False Positive Rate": 2.4944009809901857e-05,
+                    "Jaccard": 0.7665991178924783,
+                    "Negative Predictive Value": 0.9995790799669503,
+                    "Precision": 0.9832581606910786,
+                    "Recall": 0.7767377257080742,
+                    "Total Positives Reference": 16559,
+                    "Total Positives Test": 13081,
+                    "True Negative Rate": 0.9999750559901901
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-14.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-14.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9942963226505186,
+                    "Dice": 0.539213535191009,
+                    "False Discovery Rate": 0.001985380380832069,
+                    "False Negative Rate": 0.630603246709867,
+                    "False Omission Rate": 0.005716152559112932,
+                    "False Positive Rate": 6.699373821694721e-06,
+                    "Jaccard": 0.3691255006675567,
+                    "Negative Predictive Value": 0.994283847440887,
+                    "Precision": 0.9980146196191679,
+                    "Recall": 0.36939675329013294,
+                    "Total Positives Reference": 29938,
+                    "Total Positives Test": 11081,
+                    "True Negative Rate": 0.9999933006261783
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-15.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-15.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.999470192576032,
+                    "Dice": 0.9487009089350026,
+                    "False Discovery Rate": 0.036762145220268105,
+                    "False Negative Rate": 0.0654037844230444,
+                    "False Omission Rate": 0.0003445886727238761,
+                    "False Positive Rate": 0.00018795655833181435,
+                    "Jaccard": 0.9024081890662915,
+                    "Negative Predictive Value": 0.9996554113272761,
+                    "Precision": 0.9632378547797319,
+                    "Recall": 0.9345962155769556,
+                    "Total Positives Reference": 47352,
+                    "Total Positives Test": 45944,
+                    "True Negative Rate": 0.9998120434416682
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-16.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-16.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995245697191592,
+                    "Dice": 0.9368300362167179,
+                    "False Discovery Rate": 0.048432416444838755,
+                    "False Negative Rate": 0.07745797340406468,
+                    "False Omission Rate": 0.0002970974772560951,
+                    "False Positive Rate": 0.00018012181184390297,
+                    "Jaccard": 0.8811667636687323,
+                    "Negative Predictive Value": 0.9997029025227439,
+                    "Precision": 0.9515675835551612,
+                    "Recall": 0.9225420265959353,
+                    "Total Positives Reference": 27899,
+                    "Total Positives Test": 27048,
+                    "True Negative Rate": 0.9998198781881561
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-19.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-19.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996050770558954,
+                    "Dice": 0.9279731993299832,
+                    "False Discovery Rate": 0.05191752577319586,
+                    "False Negative Rate": 0.09130073910122127,
+                    "False Omission Rate": 0.0002562977118716656,
+                    "False Positive Rate": 0.0001397040914212777,
+                    "Jaccard": 0.865625,
+                    "Negative Predictive Value": 0.9997437022881284,
+                    "Precision": 0.9480824742268041,
+                    "Recall": 0.9086992608987787,
+                    "Total Positives Reference": 25301,
+                    "Total Positives Test": 24250,
+                    "True Negative Rate": 0.9998602959085787
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-20.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-20.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9992193693653867,
+                    "Dice": 0.9033611529164957,
+                    "False Discovery Rate": 0.13570119556680338,
+                    "False Negative Rate": 0.05387848681696594,
+                    "False Omission Rate": 0.00020865604419956544,
+                    "False Positive Rate": 0.0005750731137971199,
+                    "Jaccard": 0.8237544705980204,
+                    "Negative Predictive Value": 0.9997913439558004,
+                    "Precision": 0.8642988044331966,
+                    "Recall": 0.9461215131830341,
+                    "Total Positives Reference": 20936,
+                    "Total Positives Test": 22918,
+                    "True Negative Rate": 0.9994249268862029
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-21.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-21.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995808415727242,
+                    "Dice": 0.9327028687380159,
+                    "False Discovery Rate": 0.003619441571871773,
+                    "False Negative Rate": 0.1233245844269466,
+                    "False Omission Rate": 0.0004098016555335666,
+                    "False Positive Rate": 1.0586505184040362e-05,
+                    "Jaccard": 0.8738924161027001,
+                    "Negative Predictive Value": 0.9995901983444664,
+                    "Precision": 0.9963805584281282,
+                    "Recall": 0.8766754155730534,
+                    "Total Positives Reference": 28575,
+                    "Total Positives Test": 25142,
+                    "True Negative Rate": 0.999989413494816
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-22.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-22.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986208508424688,
+                    "Dice": 0.8844850903150651,
+                    "False Discovery Rate": 0.0,
+                    "False Negative Rate": 0.20710598967710958,
+                    "False Omission Rate": 0.001386469714146491,
+                    "False Positive Rate": 0.0,
+                    "Jaccard": 0.7928940103228904,
+                    "Negative Predictive Value": 0.9986135302858535,
+                    "Precision": 1.0,
+                    "Recall": 0.7928940103228904,
+                    "Total Positives Reference": 41655,
+                    "Total Positives Test": 33028,
+                    "True Negative Rate": 1.0
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-23.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-23.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9991599717442645,
+                    "Dice": 0.9410328047810239,
+                    "False Discovery Rate": 0.016247582205028976,
+                    "False Negative Rate": 0.09813100684469978,
+                    "False Omission Rate": 0.0007343281839243964,
+                    "False Positive Rate": 0.00011153236709127157,
+                    "Jaccard": 0.888632630953629,
+                    "Negative Predictive Value": 0.9992656718160756,
+                    "Precision": 0.983752417794971,
+                    "Recall": 0.9018689931553002,
+                    "Total Positives Reference": 28197,
+                    "Total Positives Test": 25850,
+                    "True Negative Rate": 0.9998884676329087
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-25.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-25.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9986911197128264,
+                    "Dice": 0.9043719354093395,
+                    "False Discovery Rate": 0.1547984644913628,
+                    "False Negative Rate": 0.027549274002097945,
+                    "False Omission Rate": 0.00017663066563213247,
+                    "False Positive Rate": 0.0011408036760329754,
+                    "Jaccard": 0.825436993298655,
+                    "Negative Predictive Value": 0.9998233693343679,
+                    "Precision": 0.8452015355086372,
+                    "Recall": 0.972450725997902,
+                    "Total Positives Reference": 18113,
+                    "Total Positives Test": 20840,
+                    "True Negative Rate": 0.998859196323967
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-26.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-26.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9981833654477872,
+                    "Dice": 0.8201546520329259,
+                    "False Discovery Rate": 0.0009874667679452553,
+                    "False Negative Rate": 0.30438461945311257,
+                    "False Omission Rate": 0.0018200868644757944,
+                    "False Positive Rate": 4.1188836558125885e-06,
+                    "Jaccard": 0.695137420718816,
+                    "Negative Predictive Value": 0.9981799131355242,
+                    "Precision": 0.9990125332320547,
+                    "Recall": 0.6956153805468874,
+                    "Total Positives Reference": 18907,
+                    "Total Positives Test": 13165,
+                    "True Negative Rate": 0.9999958811163442
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-27.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-27.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995210855002372,
+                    "Dice": 0.9002378942521679,
+                    "False Discovery Rate": 0.03694277973893767,
+                    "False Negative Rate": 0.1548879763705785,
+                    "False Omission Rate": 0.00039691601792435816,
+                    "False Positive Rate": 8.310152624257938e-05,
+                    "Jaccard": 0.818575116879492,
+                    "Negative Predictive Value": 0.9996030839820756,
+                    "Precision": 0.9630572202610623,
+                    "Recall": 0.8451120236294215,
+                    "Total Positives Reference": 13881,
+                    "Total Positives Test": 12181,
+                    "True Negative Rate": 0.9999168984737574
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-28.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-28.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9992146132603684,
+                    "Dice": 0.9241348407555494,
+                    "False Discovery Rate": 0.012668016939790139,
+                    "False Negative Rate": 0.13145874501927501,
+                    "False Omission Rate": 0.0007275365036689676,
+                    "False Positive Rate": 6.171496191342829e-05,
+                    "Jaccard": 0.8589690193188736,
+                    "Negative Predictive Value": 0.999272463496331,
+                    "Precision": 0.9873319830602099,
+                    "Recall": 0.868541254980725,
+                    "Total Positives Reference": 30869,
+                    "Total Positives Test": 27155,
+                    "True Negative Rate": 0.9999382850380866
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-29.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-29.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996650274681991,
+                    "Dice": 0.9105161601543657,
+                    "False Discovery Rate": 0.07259550423780858,
+                    "False Negative Rate": 0.10576809191045833,
+                    "False Omission Rate": 0.0002019414876235648,
+                    "False Positive Rate": 0.00013365685378097236,
+                    "Jaccard": 0.8357316803187956,
+                    "Negative Predictive Value": 0.9997980585123765,
+                    "Precision": 0.9274044957621914,
+                    "Recall": 0.8942319080895417,
+                    "Total Positives Reference": 16886,
+                    "Total Positives Test": 16282,
+                    "True Negative Rate": 0.999866343146219
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-3.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-3.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989892995510731,
+                    "Dice": 0.863706099431936,
+                    "False Discovery Rate": 0.09709579540528823,
+                    "False Negative Rate": 0.17223017008424735,
+                    "False Omission Rate": 0.0006686899139528461,
+                    "False Positive Rate": 0.0003457197731338013,
+                    "Jaccard": 0.7601080134286965,
+                    "Negative Predictive Value": 0.9993313100860471,
+                    "Precision": 0.9029042045947118,
+                    "Recall": 0.8277698299157527,
+                    "Total Positives Reference": 12582,
+                    "Total Positives Test": 11535,
+                    "True Negative Rate": 0.9996542802268662
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-30.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-30.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996924110088312,
+                    "Dice": 0.923070058009817,
+                    "False Discovery Rate": 0.086872075571643,
+                    "False Negative Rate": 0.06676892538121448,
+                    "False Omission Rate": 0.00013229511464533735,
+                    "False Positive Rate": 0.00017590907360098829,
+                    "Jaccard": 0.8571310184801525,
+                    "Negative Predictive Value": 0.9998677048853547,
+                    "Precision": 0.913127924428357,
+                    "Recall": 0.9332310746187855,
+                    "Total Positives Reference": 11083,
+                    "Total Positives Test": 11327,
+                    "True Negative Rate": 0.999824090926399
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-31.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-31.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9992647862443375,
+                    "Dice": 0.9027475567029319,
+                    "False Discovery Rate": 0.003663301856072887,
+                    "False Negative Rate": 0.17476906479670962,
+                    "False Omission Rate": 0.0007251509891932359,
+                    "False Positive Rate": 1.2598404034225297e-05,
+                    "Jaccard": 0.8227346060769024,
+                    "Negative Predictive Value": 0.9992748490108068,
+                    "Precision": 0.9963366981439271,
+                    "Recall": 0.8252309352032904,
+                    "Total Positives Reference": 14831,
+                    "Total Positives Test": 12284,
+                    "True Negative Rate": 0.9999874015959658
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-32.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-32.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987269006643344,
+                    "Dice": 0.7593887593887594,
+                    "False Discovery Rate": 0.01901522333128869,
+                    "False Negative Rate": 0.38054156836508324,
+                    "False Omission Rate": 0.001236689877727109,
+                    "False Positive Rate": 3.906883722892829e-05,
+                    "Jaccard": 0.6121085594989562,
+                    "Negative Predictive Value": 0.9987633101222729,
+                    "Precision": 0.9809847766687113,
+                    "Recall": 0.6194584316349168,
+                    "Total Positives Reference": 28399,
+                    "Total Positives Test": 17933,
+                    "True Negative Rate": 0.9999609311627711
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-33.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-33.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987940334633165,
+                    "Dice": 0.9014545533372352,
+                    "False Discovery Rate": 0.11855101954300729,
+                    "False Negative Rate": 0.07761068228196255,
+                    "False Omission Rate": 0.00046703131325494663,
+                    "False Positive Rate": 0.0007463207375084657,
+                    "Jaccard": 0.8205892219350001,
+                    "Negative Predictive Value": 0.999532968686745,
+                    "Precision": 0.8814489804569927,
+                    "Recall": 0.9223893177180374,
+                    "Total Positives Reference": 45084,
+                    "Total Positives Test": 47178,
+                    "True Negative Rate": 0.9992536792624915
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-35.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-35.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990087057879397,
+                    "Dice": 0.9422199105004977,
+                    "False Discovery Rate": 0.06664416175111931,
+                    "False Negative Rate": 0.04874603893164331,
+                    "False Omission Rate": 0.0004177983331522667,
+                    "False Positive Rate": 0.0005820594414432945,
+                    "Jaccard": 0.8907521703743896,
+                    "Negative Predictive Value": 0.9995822016668477,
+                    "Precision": 0.9333558382488807,
+                    "Recall": 0.9512539610683567,
+                    "Total Positives Reference": 55225,
+                    "Total Positives Test": 56284,
+                    "True Negative Rate": 0.9994179405585567
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-36.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-36.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.997907294886828,
+                    "Dice": 0.8567989787854842,
+                    "False Discovery Rate": 0.01346622245863549,
+                    "False Negative Rate": 0.2427797833935018,
+                    "False Omission Rate": 0.002020068011459568,
+                    "False Positive Rate": 8.616884363921162e-05,
+                    "Jaccard": 0.7494735946572516,
+                    "Negative Predictive Value": 0.9979799319885404,
+                    "Precision": 0.9865337775413645,
+                    "Recall": 0.7572202166064982,
+                    "Total Positives Reference": 46536,
+                    "Total Positives Test": 35719,
+                    "True Negative Rate": 0.9999138311563608
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-37.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-37.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9997818951431843,
+                    "Dice": 0.9665425559809114,
+                    "False Discovery Rate": 0.0371434541845157,
+                    "False Negative Rate": 0.02974310381132872,
+                    "False Omission Rate": 9.689166397284976e-05,
+                    "False Positive Rate": 0.00012192610317829367,
+                    "Jaccard": 0.9352514335007865,
+                    "Negative Predictive Value": 0.9999031083360271,
+                    "Precision": 0.9628565458154843,
+                    "Recall": 0.9702568961886713,
+                    "Total Positives Reference": 18996,
+                    "Total Positives Test": 19142,
+                    "True Negative Rate": 0.9998780738968217
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-39.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-39.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987856529957871,
+                    "Dice": 0.8449131769213339,
+                    "False Discovery Rate": 0.02412447658926531,
+                    "False Negative Rate": 0.25505793469180194,
+                    "False Omission Rate": 0.0011364254289997903,
+                    "False Positive Rate": 8.213839785409238e-05,
+                    "Jaccard": 0.7314715742920322,
+                    "Negative Predictive Value": 0.9988635745710002,
+                    "Precision": 0.9758755234107347,
+                    "Recall": 0.7449420653081981,
+                    "Total Positives Reference": 27531,
+                    "Total Positives Test": 21016,
+                    "True Negative Rate": 0.9999178616021459
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-4.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-4.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9984239338610827,
+                    "Dice": 0.8979064357715172,
+                    "False Discovery Rate": 0.013161632421172187,
+                    "False Negative Rate": 0.17632182091203663,
+                    "False Omission Rate": 0.0014941236271776466,
+                    "False Positive Rate": 9.32203332996151e-05,
+                    "Jaccard": 0.8147279549718575,
+                    "Negative Predictive Value": 0.9985058763728224,
+                    "Precision": 0.9868383675788278,
+                    "Recall": 0.8236781790879634,
+                    "Total Positives Reference": 25306,
+                    "Total Positives Test": 21122,
+                    "True Negative Rate": 0.9999067796667004
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-40.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-40.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.995745232172471,
+                    "Dice": 0.6724049478424443,
+                    "False Discovery Rate": 0.0025367833587012223,
+                    "False Negative Rate": 0.4928632846087704,
+                    "False Omission Rate": 0.004262321656564845,
+                    "False Positive Rate": 1.1201636932578474e-05,
+                    "Jaccard": 0.5064834693001288,
+                    "Negative Predictive Value": 0.9957376783434352,
+                    "Precision": 0.9974632166412988,
+                    "Recall": 0.5071367153912296,
+                    "Total Positives Reference": 11630,
+                    "Total Positives Test": 5913,
+                    "True Negative Rate": 0.9999887983630674
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-41.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-41.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990083644936681,
+                    "Dice": 0.9185617160942445,
+                    "False Discovery Rate": 0.01742892072348834,
+                    "False Negative Rate": 0.13761796021679917,
+                    "False Omission Rate": 0.0008975447789970933,
+                    "False Positive Rate": 9.984672808915906e-05,
+                    "Jaccard": 0.84938893856868,
+                    "Negative Predictive Value": 0.9991024552210029,
+                    "Precision": 0.9825710792765117,
+                    "Recall": 0.8623820397832008,
+                    "Total Positives Reference": 36347,
+                    "Total Positives Test": 31901,
+                    "True Negative Rate": 0.9999001532719108
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-42.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-42.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996314730600873,
+                    "Dice": 0.9453596674858166,
+                    "False Discovery Rate": 0.0651626065042602,
+                    "False Negative Rate": 0.04387849033445845,
+                    "False Omission Rate": 0.0001468064565274257,
+                    "False Positive Rate": 0.0002229645706012251,
+                    "Jaccard": 0.8963811058051896,
+                    "Negative Predictive Value": 0.9998531935434726,
+                    "Precision": 0.9348373934957398,
+                    "Recall": 0.9561215096655415,
+                    "Total Positives Reference": 16295,
+                    "Total Positives Test": 16666,
+                    "True Negative Rate": 0.9997770354293988
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-44.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-44.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995069137239231,
+                    "Dice": 0.9465001098733921,
+                    "False Discovery Rate": 0.012904135669710493,
+                    "False Negative Rate": 0.09088842706845046,
+                    "False Omission Rate": 0.0004380012994508005,
+                    "False Positive Rate": 5.72952957275108e-05,
+                    "Jaccard": 0.8984339901161671,
+                    "Negative Predictive Value": 0.9995619987005492,
+                    "Precision": 0.9870958643302895,
+                    "Recall": 0.9091115729315495,
+                    "Total Positives Reference": 30796,
+                    "Total Positives Test": 28363,
+                    "True Negative Rate": 0.9999427047042725
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-45.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-45.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994155254395465,
+                    "Dice": 0.8879450015326006,
+                    "False Discovery Rate": 0.12311351351351352,
+                    "False Negative Rate": 0.1007140006208701,
+                    "False Omission Rate": 0.00026003445599669686,
+                    "False Positive Rate": 0.00032596621446634444,
+                    "Jaccard": 0.7984722003465112,
+                    "Negative Predictive Value": 0.9997399655440034,
+                    "Precision": 0.8768864864864865,
+                    "Recall": 0.8992859993791299,
+                    "Total Positives Reference": 22549,
+                    "Total Positives Test": 23125,
+                    "True Negative Rate": 0.9996740337855337
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-47.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-47.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.999771639428914,
+                    "Dice": 0.9649307013859723,
+                    "False Discovery Rate": 0.030948489481731456,
+                    "False Negative Rate": 0.03915520936797534,
+                    "False Omission Rate": 0.00012844190875994395,
+                    "False Positive Rate": 0.00010066421231191836,
+                    "Jaccard": 0.9322377764252384,
+                    "Negative Predictive Value": 0.9998715580912401,
+                    "Precision": 0.9690515105182685,
+                    "Recall": 0.9608447906320247,
+                    "Total Positives Reference": 19129,
+                    "Total Positives Test": 18967,
+                    "True Negative Rate": 0.9998993357876881
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-5.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-5.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996260741596192,
+                    "Dice": 0.9342229014813073,
+                    "False Discovery Rate": 0.04746778543602037,
+                    "False Negative Rate": 0.08339581290731879,
+                    "False Omission Rate": 0.00024227359189365295,
+                    "False Positive Rate": 0.0001327121110693552,
+                    "Jaccard": 0.8765649991726877,
+                    "Negative Predictive Value": 0.9997577264081063,
+                    "Precision": 0.9525322145639796,
+                    "Recall": 0.9166041870926812,
+                    "Total Positives Reference": 17339,
+                    "Total Positives Test": 16685,
+                    "True Negative Rate": 0.9998672878889306
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-6.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-6.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990406075063755,
+                    "Dice": 0.8561250877703755,
+                    "False Discovery Rate": 0.0780154924382147,
+                    "False Negative Rate": 0.20095265496627346,
+                    "False Omission Rate": 0.0007200892883224452,
+                    "False Positive Rate": 0.0002423984866082307,
+                    "Jaccard": 0.7484429272966823,
+                    "Negative Predictive Value": 0.9992799107116775,
+                    "Precision": 0.9219845075617853,
+                    "Recall": 0.7990473450337265,
+                    "Total Positives Reference": 31281,
+                    "Total Positives Test": 27110,
+                    "True Negative Rate": 0.9997576015133918
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-8.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-8.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9982091492016654,
+                    "Dice": 0.7934339654025283,
+                    "False Discovery Rate": 0.00010480807022139604,
+                    "False Negative Rate": 0.34235786788908606,
+                    "False Omission Rate": 0.0017966703807139653,
+                    "False Positive Rate": 3.624088519282864e-07,
+                    "Jaccard": 0.6575968017094311,
+                    "Negative Predictive Value": 0.998203329619286,
+                    "Precision": 0.9998951919297786,
+                    "Recall": 0.6576421321109139,
+                    "Total Positives Reference": 58027,
+                    "Total Positives Test": 38165,
+                    "True Negative Rate": 0.9999996375911481
+                },
+                "reference": "/home/bonese/Magistrska-nnUNet/data/nnUNet_preprocessed/Task503_Uterus/gt_segmentations/Madrid-9.nii.gz",
+                "test": "/home/bonese/Magistrska-nnUNet/data/nnUNet_trained_models/nnUNet/ensembles/Task503_Uterus/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/ensembled_postprocessed/Madrid-9.nii.gz"
+            }
+        ],
+        "mean": {
+            "1": {
+                "Accuracy": 0.9982171229710775,
+                "Dice": 0.8537966967053784,
+                "False Discovery Rate": 0.07140557985183642,
+                "False Negative Rate": 0.18462455200778977,
+                "False Omission Rate": 0.0013305621236572535,
+                "False Positive Rate": 0.0004668314682975468,
+                "Jaccard": 0.7589117966211774,
+                "Negative Predictive Value": 0.9986694378763429,
+                "Precision": 0.9285944201481635,
+                "Recall": 0.8153754479922103,
+                "Total Positives Reference": 28826.25,
+                "Total Positives Test": 25239.24193548387,
+                "True Negative Rate": 0.9995331685317025
+            }
+        }
+    },
+    "task": "",
+    "timestamp": "2022-10-04 09:07:22.777750"
+}
